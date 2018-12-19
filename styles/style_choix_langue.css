@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("../imgs/B3D_Essences_Acacia_11.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.btnChoix{
+	margin-top: 30%;
+}
+
+.btn{
+	background: none;
+	color: #C0BA7B;
+	border: 1px solid #C0BA7B;
+	font-size: 1rem;
+	font-weight: bold;
+}
