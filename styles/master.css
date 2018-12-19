@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+p {
+line-height: 200%;
+}
+
 .cadre {
   border : 2px solid black;
   border-radius: 20px;
@@ -19,11 +23,28 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
   }
 
+/*******************************/
 /* carte produit */
 .card {
   background-color: grey;
 }
 
+/******************************/
+@media (max-width: 768px){
+  #zone2-entreprise {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+
+/******************************/
+@media (max-width: 576px){
+  #zone2-entreprise {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
