@@ -7,3 +7,23 @@ body {
   border : 2px solid black;
   border-radius: 20px;
 }
+/***************************/
+/*      parallax            */
+.parallax {
+  /* The image used */
+  background-image: url("../imgs/acacia.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+/* carte produit */
+.card {
+  background-color: grey;
+}
+
