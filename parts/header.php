@@ -35,9 +35,9 @@
 	</div>
 
 	<header class="container-fluid text-center bg-dark pt-3">
-		<div class='row justify-content-around m-0'>
+		<div class='row justify-content-around m-0 pt-0 pb-2'>
 			<div class="col-lg-3 col-md-8 col-sm-10">
-				<a id="logo" href="accueil.php"><img src="imgs/B3D_Logo_150_w.png" class="align-self-center img-fluid"></a>
+				<a id="logo" href="accueil.php"><img src="imgs/B3D_LogoWhite_petit.png" class="align-self-center img-fluid w-50"></a>
 			</div>
 			<div class="col-lg-6 col-md-8 col-sm-10 justify-content-center d-flex align-items-end">
 
