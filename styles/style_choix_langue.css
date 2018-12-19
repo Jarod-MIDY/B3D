@@ -6,14 +6,26 @@ body{
 	background-repeat: no-repeat;
 }
 
+img{
+	margin-top: 10%;
+}
+
+
 .btnChoix{
-	margin-top: 30%;
+	margin-top: 5%;
 }
 
 .btn{
 	background: none;
-	color: #C0BA7B;
-	border: 1px solid #C0BA7B;
+	color: white;
 	font-size: 1rem;
-	font-weight: bold;
+	margin: 15px;
 }
+
+.btn:hover{
+	 font-size: 1.1rem;
+	 font-weight: bold;
+	 padding: 10px;
+	 margin: 10px;
+}
+
