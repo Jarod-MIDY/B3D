@@ -3,8 +3,6 @@
 /*      ABE-JMI-EMO-NLA                   */
 /*                                        */
 /******************************************/
-
-
 /************************/
 /*     general          */
 html {
@@ -12,12 +10,18 @@ html {
 }
 
 body {
-  background-image: url("../imgs/forêt-de-dessin.jpg");  /*parallax*/
-  min-height: 500px;  /*parallax*/
-  background-attachment: fixed;  /*parallax*/
-  background-position: center;  /*parallax*/
-  background-repeat: no-repeat;  /*parallax*/
-  background-size: cover;  /*parallax*/
+  background-image: url("../imgs/forêt-de-dessin.jpg");
+  /*parallax*/
+  min-height: 500px;
+  /*parallax*/
+  background-attachment: fixed;
+  /*parallax*/
+  background-position: center;
+  /*parallax*/
+  background-repeat: no-repeat;
+  /*parallax*/
+  background-size: cover;
+  /*parallax*/
   margin: 0;
   padding: 0;
 }
@@ -25,18 +29,22 @@ body {
 header {
   margin-bottom: 2em;
 }
-
+/*****bloc contactez-nous*******/
 #contactNous {
   background-color: #c3bf82;
-  border: 2px solid black ;
+  border: 2px solid black;
   border-radius: 20px;
-
+  padding: 1em;
 }
 
+#contactNous ul {
+  list-style: none;
+}
+/*****footer*******/
 footer {
   margin-top: 2em;
 }
-
+/******autres******/
 p {
   line-height: 200%;
 }
@@ -59,7 +67,7 @@ p {
 }
 
 /******************************/
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   html {
     font-size: 0.9rem;
   }
@@ -70,29 +78,36 @@ p {
     padding: 0;
   }
 
+  #container-contact-nous {
+    background-color: #c3bf82;
+    margin-top: 1em;
+  }
+
+  #container-contact-nous.container {
+    max-width: 100%;
+  }
+
   #contactNous {
-    margin: 0;
+    margin:0;
     border: none;
-    border-radius:0;
-    }
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
 
   footer {
     margin-top: 0;
   }
 
-  #zone2-entreprise {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
   .texte-entreprise {
-    margin: 1em;
+    margin: 0;
   }
 }
 
 /******************************/
-@media (max-width: 576px) {
+@media (max-width: 577px) {
   html {
     font-size: 0.8rem;
   }
@@ -109,5 +124,6 @@ p {
   #zone2-entreprise {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
   }
 }
