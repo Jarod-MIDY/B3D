@@ -1,6 +1,5 @@
 <?php include('parts/header.php'); ?>
-<div class="parallax">
-<?php include('societe.php'); ?>
+<div class="parallax p-5">
 <?php include('produit.php'); ?>
 <?php include('parts/restercontact.php'); ?>
 </div>
