@@ -34,7 +34,7 @@
 		</nav>
 	</div>
 
-	<header class="container-fluid text-center bg-dark pt-3">
+	<header id="header" class="container-fluid text-center bg-dark pt-3">
 		<div class='row justify-content-around m-0 pt-0 pb-2'>
 			<div class="col-lg-3 col-md-8 col-sm-10">
 				<a id="logo" href="accueil.php"><img src="imgs/B3D_LogoWhite_petit.png" class="align-self-center img-fluid w-50"></a>
