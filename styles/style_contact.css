@@ -1,0 +1,24 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+form{
+	margin-top: 1.5em;
+}
+
+.message{
+	height: 140px;
+}
+
+iframe, .col-md-12{
+	padding-right: 0;
+	padding-left: 0; 
+}
+

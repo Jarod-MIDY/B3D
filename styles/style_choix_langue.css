@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("../imgs/B3D_Essences_Acacia_11.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+img{
+	margin-top: 10%;
+}
+
+
+.btnChoix{
+	margin-top: 5%;
+}
+
+.btn{
+	background: none;
+	color: white;
+	font-size: 1rem;
+	margin: 15px;
+}
+
+.btn:hover{
+	 font-size: 1.1rem;
+	 font-weight: bold;
+	 padding: 10px;
+	 margin: 10px;
+}
+
