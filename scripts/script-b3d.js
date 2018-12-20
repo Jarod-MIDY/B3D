@@ -4,3 +4,10 @@ $(".menu").click(function() {
   $(".navbar-responsive").toggle("slow");
 });
 
+// le scroll de la fléche du bas
+$(".scroll-up").click(function() {
+  var section = $('#header');
+  $("html,body").animate({
+    scrollTop: section.offset().top
+  }, "slow");
+});
