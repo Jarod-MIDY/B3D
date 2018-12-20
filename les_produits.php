@@ -10,7 +10,7 @@
           <div class="card-body text-center">
             <p><img class=" img-fluid" src="imgs/tas_piquets.jpg" alt="card image"></p>
             <h4 class="card-title">Nos piquets en chataignier</h4>
-            <h7><em></em></h7>
+            <h5><em></em></h5>
             <p class="card-text">
             </p>
             <i class="" style="color: "></i>
@@ -25,7 +25,7 @@
           <div class="card-body text-center">
             <p><img class=" img-fluid" src="imgs/tas_piquets.jpg" alt="card image"></p>
             <h4 class="card-title">Nos piquets en acacia</h4>
-            <h7><em></em></h7>
+            <h5><em></em></h5>
             <p class="card-text">
             </p>
             <i class="" style="color: "></i>
@@ -42,7 +42,7 @@
         <div class="card-body text-center">
           <p><img class=" img-fluid" src="imgs/tas_piquets.jpg" alt="card image"></p>
           <h4 class="card-title">Nos piquets en pins</h4>
-          <h7><em></em></h7>
+          <h5><em></em></h5>
           <p class="card-text">
           </p>
           <i class="" style="color: "></i>
@@ -56,7 +56,7 @@
         <div class="card-body text-center">
           <p><img class=" img-fluid" src="imgs/tas_piquets.jpg" alt="card image"></p>
           <h4 class="card-title">Bois de feu</h4>
-          <h7><em></em></h7>
+          <h5><em></em></h5>
           <p class="card-text">
           </p>
           <i class="" style="color: "></i>
