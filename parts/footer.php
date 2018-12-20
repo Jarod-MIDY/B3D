@@ -1,4 +1,4 @@
-<footer id="footer" class="container-fluid bg-dark">
+	<footer id="footer" class="container-fluid bg-dark">
 
 		<div class="row justify-content-center">
 			<div class="col-lg-4 col-md-10 col-sm-10 border text-center">
@@ -9,6 +9,6 @@
 
 
 	<script src="scripts/script-b3d.js"></script>
-</body>
-
+	</body>
 </html>
+<?php $conn->close(); ?>
