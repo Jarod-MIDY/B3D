@@ -16,7 +16,7 @@
 	
 
 
-	<form action="resultat2.php" method="post">
+	<form action="resultat_form.php" method="post">
 
 		<label for='objet'>Vous êtes un : </label>
         <select name="objet">
@@ -79,7 +79,7 @@
 <?php
 	
 	if($_POST ['submit']){
-		include('resultat2.php');
+		include('resultat_form.php');
     }
     
 ?>
