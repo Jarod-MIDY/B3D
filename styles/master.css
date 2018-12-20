@@ -1,9 +1,113 @@
+/******************************************/
+/*          css B3D                       */
+/*      ABE-JMI-EMO-NLA                   */
+/*                                        */
+/******************************************/
+
+
+/************************/
+/*     general          */
+html {
+  font-size: 1rem;
+}
+
 body {
+  background-image: url("../imgs/forêt-de-dessin.jpg");  /*parallax*/
+  min-height: 500px;  /*parallax*/
+  background-attachment: fixed;  /*parallax*/
+  background-position: center;  /*parallax*/
+  background-repeat: no-repeat;  /*parallax*/
+  background-size: cover;  /*parallax*/
   margin: 0;
   padding: 0;
 }
 
-.cadre {
-  border : 2px solid black;
+header {
+  margin-bottom: 2em;
+}
+
+#contactNous {
+  background-color: #c3bf82;
+  border: 2px solid black ;
   border-radius: 20px;
+
+}
+
+footer {
+  margin-top: 2em;
+}
+
+p {
+  line-height: 200%;
+}
+
+.cadre {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/*******************************/
+/* page les-produit            */
+.card {
+  background-color: grey;
+}
+
+/*******************************/
+/*       page entreprise     */
+.texte-entreprise {
+  margin: 2em;
+}
+
+/******************************/
+@media (max-width: 768px) {
+  html {
+    font-size: 0.9rem;
+  }
+
+  body {
+    background: #b95c16;
+    margin: 0;
+    padding: 0;
+  }
+
+  #contactNous {
+    margin: 0;
+    border: none;
+    border-radius:0;
+    }
+
+  footer {
+    margin-top: 0;
+  }
+
+  #zone2-entreprise {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .texte-entreprise {
+    margin: 1em;
+  }
+}
+
+/******************************/
+@media (max-width: 576px) {
+  html {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+  .card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #zone2-entreprise {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

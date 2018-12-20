@@ -27,17 +27,17 @@
 		<nav>
 			<ul>
 				<li><a id="accueil" class="sliding-middle-out" href="#">Accueil</a></li>
-				<li><a id="nosProduits" class="sliding-middle-out" href="#">Nos produits</a></li>
-				<li><a id="entreprise" class="sliding-middle-out" href="#">L'entreprise</a></li>
+				<li><a id="nosProduits" class="sliding-middle-out" href="les-produits.php">Nos produits</a></li>
+				<li><a id="entreprise" class="sliding-middle-out" href="societe.php">L'entreprise</a></li>
 				<li><a id="contact" class="sliding-middle-out" href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
 
 	<header class="container-fluid text-center bg-dark pt-3">
-		<div class='row justify-content-around m-0'>
+		<div class='row justify-content-around m-0 pt-0 pb-2'>
 			<div class="col-lg-3 col-md-8 col-sm-10">
-				<a id="logo" href="accueil.php"><img src="imgs/B3D_Logo_150_w.png" class="align-self-center img-fluid"></a>
+				<a id="logo" href="accueil.php"><img src="imgs/B3D_LogoWhite_petit.png" class="align-self-center img-fluid w-50"></a>
 			</div>
 			<div class="col-lg-6 col-md-8 col-sm-10 justify-content-center d-flex align-items-end">
 
@@ -46,7 +46,7 @@
 					<ul class="nav ">
 						<li class="nav-item"><a id="accueil" class="nav-link sliding-middle-out" href="accueil.php">Accueil</a></li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-toggle="dropdown" data-hover="">Nos Produits</a>
+							<a class="nav-link dropdown-toggle" href="les-produits.html" id="navbardrop" role="button" data-toggle="dropdown" data-hover="">Nos Produits</a>
 							<div class="dropdown-menu">
 								<a href="produit.php" class="dropdown-item ">Piquets chataigniers</a>
 								<a href="produit.php" class="dropdown-item ">Piquets acacia</a>
