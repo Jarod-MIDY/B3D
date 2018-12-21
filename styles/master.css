@@ -59,14 +59,7 @@ p {
 /*******************************/
 /*        page accueil         */
 
-#container-accueil{
-	width: 573px;
-	height: 430px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#a-propos{
+/*#a-propos{
 	display: flex;
 	margin: 20px;
 }
@@ -76,7 +69,7 @@ p {
 
 #img-a-propos{
 	margin-left: 30px;
-}
+}*/
 
 /*          slider             */
 /* Make the image fully responsive */
