@@ -1,9 +1,9 @@
 <?php
 $host = '127.0.0.1';
 $db   = 'b3dbdd';
-$user = 'amdinphp';
+$user = 'adminphp';
 $pass = '1997Ubellblatt';
-$charset = 'utf8_general_ci';
+$charset = 'utf8';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
@@ -16,9 +16,4 @@ try {
 } catch (\PDOException $e) {
      throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
-$stmt = $pdo->query('SELECT Francais FROM b3d_header');
-while ($row = $stmt->fetch())
-{
-    echo $row['Francais'] . "\n";
-};
 ?>

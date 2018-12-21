@@ -1,4 +1,7 @@
 <?php include('connexion.php');
+$stmt = $pdo->query('SELECT Francais FROM b3d_header');
+$row = $stmt->fetchAll();
+echo $row['Francais'] . "\n";
 ?>
 
 <!doctype>
