@@ -65,6 +65,17 @@ p {
   border-radius: 1em;
 }
 
+/**********************************/
+/*     page-produit                */
+#produit p{
+  line-height: 120%;
+  margin: 1em;
+}
+
+#produit .row {
+  margin: 1em 0;
+}
+
 /*******************************/
 /*       page entreprise     */
 .texte-entreprise {
