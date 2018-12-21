@@ -30,11 +30,13 @@ header {
   margin-bottom: 2em;
 }
 /*****bloc contactez-nous*******/
+#container-contact-nous {}
 #contactNous {
   background-color: #c3bf82;
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 1em;
   padding: 1em;
+  margin-top: 2em;
 }
 
 #contactNous ul {
@@ -52,13 +54,15 @@ p {
 
 .cadre {
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 1em;
 }
 
 /*******************************/
 /* page les-produit            */
 .card {
-  background-color: grey;
+  background-color: #b78e56;
+  margin: 2em;
+  border-radius: 1em;
 }
 
 /*******************************/
@@ -75,7 +79,7 @@ p {
   }
 
   body {
-    background: #b95c16;
+    /*background: #b95c16;*/
     margin: 0;
     padding: 0;
   }
@@ -97,7 +101,10 @@ p {
     flex-direction: column;
   }
 
+/*carte page-les-produits*/
+.card-desk {
 
+}
 
   footer {
     margin-top: 0;
@@ -112,6 +119,10 @@ margin: 2em 0;
 @media (max-width: 577px) {
   html {
     font-size: 0.8rem;
+  }
+
+  body {
+    background: #b95c16;
   }
 
   footer {
