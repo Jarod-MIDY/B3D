@@ -1,3 +1,4 @@
+<?php include('parts/head.php'); ?>
 <?php include('parts/header.php'); ?>
 <section id="produit" class="container">
   <h3 class="display-3 text-center">Nom du produit</h3>

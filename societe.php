@@ -1,5 +1,5 @@
+<?php include('parts/head.php'); ?>
 <?php include('parts/header.php'); ?>
-
 
 <section id="pageEntreprise" class="container">
   <h3 class="display-3 text-center">L'Entreprise</h3>
