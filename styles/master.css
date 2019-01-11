@@ -18,20 +18,13 @@ html {
 }
 
 body {
-  background-image: url("../imgs/forêt-de-dessin.jpg");
-  /*parallax*/
-  min-height: 500px;
-  /*parallax*/
-  background-attachment: fixed;
-  /*parallax*/
-  background-position: center;
-  /*parallax*/
-  background-repeat: no-repeat;
-  /*parallax*/
-  background-size: cover;
-  /*parallax*/
   margin: 0;
   padding: 0;
+  background-color: #896437 ;
+}
+section {
+  margin:5vh 0;
+  padding: 2vh;
 }
 /*****Header*******/
 
@@ -50,7 +43,16 @@ header nav a  {
 }
 header nav a:hover {
   color: #d9c894;
-  background-color: #877c68;
+  background-color: #b79017;
+}
+/*****Footer*******/
+
+footer {
+  background-color: #882214;
+  color: #d9c894;
+}
+footer a {
+  color: #d9c894;
 }
 /*****bloc contactez-nous*******/
 #container-contact-nous {}
@@ -86,10 +88,10 @@ p {
 /*********************************/
 /*          choix langue          */
 #choix-langue {
-  background-image: url("../imgs/acacia.jpg");
+  background-image: url("../imgs/B3D_Essences_Acacia_11.jpg");
   height: 100%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -114,19 +116,9 @@ p {
 
 /*******************************/
 /*        page accueil         */
-/*#a-propos{
-	display: flex;
-	margin: 20px;
+#container-acceuil {
+  background-color: #9d7752;
 }
-.texte{
-	width: 60%;
-}
-
-#img-a-propos{
-	margin-left: 30px;
-}*/
-/*          slider             */
-/* Make the image fully responsive */
 .carousel-inner img {
   width: 100%;
   height: 100%;

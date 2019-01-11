@@ -1,4 +1,4 @@
-<section id="container-contact-nous" class="container">
+<section id="container-contact-nous" class="">
 	<div  class="row justify-content-center">
 	<div  id="contactNous"  class="col-lg-8 col-md-12 col-sm-12">
 		<h4 class="display-4  text-center">Restons en contact</h5>

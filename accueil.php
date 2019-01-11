@@ -2,7 +2,7 @@
 <?php include('choix_langue.php'); ?>
 <?php include('parts/header.php'); ?>
 
-<section  id="container-accueil" class="container">
+<section  id="container-slider" class="container">
   <div class="row justify-content-center">
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- le slider -->
@@ -38,6 +38,8 @@
     <a class="carousel-control-next" href="#demo" data-slide="next">
     <span class="carousel-control-next-icon"></span></a>
   </div>
+</section>
+<section id="container-acceuil" class="container">
   </div>
   <div id="a-propos" class="row">
     <div class="col-lg-6 col-sm-12 col-md-6">
