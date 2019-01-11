@@ -1,4 +1,5 @@
 <body>
+<!-- début menu tel tablette vertical -->
 	<div id="menu-portable" class="navbar-responsive text-center">
 		<nav>
 			<ul>
@@ -9,14 +10,14 @@
 			</ul>
 		</nav>
 	</div>
-
-	<header id="header" class="container-fluid text-center bg-dark pt-3">
-		<div class='row justify-content-around m-0 pt-0 pb-2'>
+<!-- fin menu tel tablette vertical -->
+<!-- debut menu PC tablette horizontal -->
+	<header id="header" class="container-fluid pt-3 d-flex ">
+		<div class='row justify-content-around m-0 pt-0 pb-2 flex-grow-1 '>
 			<div class="col-lg-3 col-md-8 col-sm-10">
 				<a id="logo" href="accueil.php"><img src="imgs/B3D_LogoWhite_petit.png" class="align-self-center img-fluid w-50"></a>
 			</div>
-			<div class="col-lg-6 col-md-8 col-sm-10 justify-content-center d-flex align-items-end">
-
+			<div class="col-lg-6 col-md-8 col-sm-10 justify-content-center d-flex align-items-center ">
 				<nav class=" d-none d-lg-block">
 					<!-- menu --->
 					<ul class="nav ">
@@ -34,10 +35,9 @@
 						<li class="nav-item"><a id="contact" class="nav-link sliding-middle-out" href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
-
 			</div>
-			<div class="col-lg-3 col-md-8 col-sm-10">
-				<div class="row justify-content-center text-center">
+			<div class="col-lg-3 col-md-8 col-sm-10 d-flex justify-content-end align-items-center">
+				<div class="row">
 					<ul class="list-inline">
 						<li class="list-inline-item">
 							<!-- icone menu-responsive -->

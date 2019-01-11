@@ -6,13 +6,15 @@
 /************************/
 @font-face {
   font-family: IBMPlexMono;
-  src: url("ibm-plex/IBMPlexMono-Bold.otf");
+  src: url("ibm-plex/IBMPlexSans-Regular.otf");
+}
+*{
+  font-family: IBMPlexMono, sans-serif;
 }
 
 /*     general          */
 html {
   font-size: 1rem;
-  font-family: IBMPlexMono, sans-serif;
 }
 
 body {
@@ -31,11 +33,25 @@ body {
   margin: 0;
   padding: 0;
 }
+/*****Header*******/
 
 header {
   margin-bottom: 2em;
+  background-color: #882214;
 }
-
+header nav a  {
+  font-family: IBMPlexMono, sans-serif;
+  background: none;
+  color: #d9c894;
+  font-size: 1.5rem;
+  border-left: 1px solid #b79017;
+  border-bottom: 1px solid #b79017;
+  margin : 0.4rem;
+}
+header nav a:hover {
+  color: #d9c894;
+  background-color: #877c68;
+}
 /*****bloc contactez-nous*******/
 #container-contact-nous {}
 
