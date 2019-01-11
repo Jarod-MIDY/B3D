@@ -6,16 +6,12 @@
 /************************/
 @font-face {
   font-family: IBMPlexMono;
-  src: url("/ibm-plex/IBMPlexMono-Bold.otf");
+  src: url("ibm-plex/IBMPlexMono-Bold.otf");
 }
 /*     general          */
-* {
-  font-family: IBMPlexMono, sans-serif;
-  
-}
-
 html {
   font-size: 1rem;
+  font-family: IBMPlexMono, sans-serif;
 }
 
 body {
