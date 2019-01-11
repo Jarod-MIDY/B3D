@@ -11,3 +11,11 @@ $(".scroll-up").click(function() {
     scrollTop: section.offset().top
   }, "slow");
 });
+
+//scroll du choix de langue
+$(".scroll-langue").click(function() {
+  var section = $('#header');
+  $("html,body").animate({
+    scrollTop: section.offset().top
+  }, 300);
+});

@@ -60,9 +60,31 @@ p {
 /*********************************/
 /*          choix langue          */
 #choix-langue {
-  background-image: : url("imgs/acacia.jpg");
+  background-image: url("../imgs/acacia.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.btnChoix{
+	margin-top: 5%;
+}
+
+.btn{
+	background: none;
+	color: white;
+	font-size: 1rem;
+	margin: 15px;
+}
+
+.btn:hover{
+	 font-size: 1.1rem;
+	 font-weight: bold;
+	 padding: 10px;
+	 margin: 10px;
+}
 
 
 /*******************************/
@@ -139,7 +161,9 @@ iframe, .col-md-12{
     margin: 0;
     padding: 0;
   }
-
+#choix-langue {
+  height-max: 768px; 
+}
   #container-contact-nous {
     background-color: #c3bf82;
     margin-top: 1em;

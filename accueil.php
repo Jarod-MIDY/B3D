@@ -1,4 +1,5 @@
 <?php include('parts/head.php'); ?>
+<?php include('choix_langue.php'); ?>
 <?php include('parts/header.php'); ?>
 <section  id="container-accueil" class="container">
   <div class="row justify-content-center">
