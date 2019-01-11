@@ -4,7 +4,16 @@
 /*                                        */
 /******************************************/
 /************************/
+@font-face {
+  font-family: IBMPlexMono;
+  src: url("/ibm-plex/IBMPlexMono-Bold.otf");
+}
 /*     general          */
+* {
+  font-family: IBMPlexMono, sans-serif;
+  
+}
+
 html {
   font-size: 1rem;
 }
@@ -50,6 +59,7 @@ footer {
 /******autres******/
 p {
   line-height: 200%;
+
 }
 
 .cadre {
@@ -162,7 +172,7 @@ iframe, .col-md-12{
     padding: 0;
   }
 #choix-langue {
-  height-max: 768px; 
+  height-max: 768px;
 }
   #container-contact-nous {
     background-color: #c3bf82;
