@@ -3,8 +3,6 @@
 /*      ABE-JMI-EMO-NLA                   */
 /*                                        */
 /******************************************/
-
-
 /************************/
 /*     general          */
 html {
@@ -12,12 +10,18 @@ html {
 }
 
 body {
-  background-image: url("../imgs/forêt-de-dessin.jpg");  /*parallax*/
-  min-height: 500px;  /*parallax*/
-  background-attachment: fixed;  /*parallax*/
-  background-position: center;  /*parallax*/
-  background-repeat: no-repeat;  /*parallax*/
-  background-size: cover;  /*parallax*/
+  background-image: url("../imgs/forêt-de-dessin.jpg");
+  /*parallax*/
+  min-height: 500px;
+  /*parallax*/
+  background-attachment: fixed;
+  /*parallax*/
+  background-position: center;
+  /*parallax*/
+  background-repeat: no-repeat;
+  /*parallax*/
+  background-size: cover;
+  /*parallax*/
   margin: 0;
   padding: 0;
 }
@@ -25,76 +29,180 @@ body {
 header {
   margin-bottom: 2em;
 }
-
+/*****bloc contactez-nous*******/
+#container-contact-nous {}
 #contactNous {
   background-color: #c3bf82;
-  border: 2px solid black ;
-  border-radius: 20px;
-
-}
-
-footer {
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 1em;
   margin-top: 2em;
 }
 
+#contactNous ul {
+  list-style: none;
+}
+/*****footer*******/
+footer {
+  margin-top: 2em;
+  padding-bottom: 1em;
+}
+/******autres******/
 p {
   line-height: 200%;
 }
 
 .cadre {
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 1em;
+}
+
+/*********************************/
+/*          choix langue          */
+#choix-langue {
+  background-image: url("../imgs/acacia.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btnChoix{
+	margin-top: 5%;
+}
+
+.btn{
+	background: none;
+	color: white;
+	font-size: 1rem;
+	margin: 15px;
+}
+
+.btn:hover{
+	 font-size: 1.1rem;
+	 font-weight: bold;
+	 padding: 10px;
+	 margin: 10px;
+}
+
+
+/*******************************/
+/*        page accueil         */
+
+/*#a-propos{
+	display: flex;
+	margin: 20px;
+}
+.texte{
+	width: 60%;
+}
+
+#img-a-propos{
+	margin-left: 30px;
+}*/
+
+/*          slider             */
+/* Make the image fully responsive */
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
 }
 
 /*******************************/
 /* page les-produit            */
 .card {
-  background-color: grey;
+  background-color: #b78e56;
+  margin: 2em;
+  border-radius: 1em;
+}
+
+/**********************************/
+/*     page-produit                */
+#produit p{
+  line-height: 120%;
+  margin: 1em;
+}
+
+#produit .row {
+  margin: 1em 0;
 }
 
 /*******************************/
 /*       page entreprise     */
 .texte-entreprise {
   margin: 2em;
+  padding: 1em;
+}
+/*******************************/
+/*      page-contact           */
+
+form{
+	margin-top: 1.5em;
+}
+
+.message{
+	height: 140px;
+}
+
+iframe, .col-md-12{
+	padding-right: 0;
+	padding-left: 0;
 }
 
 /******************************/
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   html {
     font-size: 0.9rem;
   }
 
   body {
-    background: #b95c16;
+    /*background: #b95c16;*/
     margin: 0;
     padding: 0;
   }
+#choix-langue {
+  height-max: 768px; 
+}
+  #container-contact-nous {
+    background-color: #c3bf82;
+    margin-top: 1em;
+  }
+
+  #container-contact-nous.container {
+    max-width: 100%;
+  }
 
   #contactNous {
-    margin: 0;
+    margin:0;
     border: none;
-    border-radius:0;
-    }
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+/*carte page-les-produits*/
+.card-desk {
+
+}
 
   footer {
     margin-top: 0;
   }
 
-  #zone2-entreprise {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
   .texte-entreprise {
-    margin: 1em;
-  }
+margin: 2em 0;
+      }
 }
 
 /******************************/
-@media (max-width: 576px) {
+@media (max-width: 577px) {
   html {
     font-size: 0.8rem;
+  }
+
+  body {
+    background: #b95c16;
   }
 
   footer {
@@ -109,5 +217,6 @@ p {
   #zone2-entreprise {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
   }
 }
