@@ -7,7 +7,7 @@
 						<h4 class="">B3D</h4>
 						<div class="row justify-content-start text-left"> <ul class="">
 							<li>adresse</li>
-							<li>adresse</lir>
+							<li>adresse</li>
 							</br>
 							<li>Horaires</li>
 							<li>telephone</li>
@@ -15,7 +15,8 @@
 						<a href="contact.php" target="" title="ouvre le formulaire de contact"><button type="button" class="btn btn-primary"><i class="fas fa-chevron-circle-right"></i> Me contactez</button></a>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12  text-center">
-						<img src="imgs/Maps.png" class="img-fluid m-3 " style="width: 70%;"></div>
+						<img src="imgs/Maps.png" class="img-fluid m-3 " style="width: 70%;">
+					</div>
 				</div>
 			</div>
 		</div>
