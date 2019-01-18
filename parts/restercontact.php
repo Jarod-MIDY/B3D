@@ -5,7 +5,6 @@
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12  text-center">
 						<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.yahoo.com/e/?lat=44.34926359035272&amp;lon=0.07158279418945312&amp;q=l%27intendant%2047700%20Poussignac&amp;bb=44.37896245%2C-0.00437737%2C44.31954967%2C0.14737129&amp;addr=l%27intendant%2047700%20Poussignac"></iframe>
-
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12  text-center ">
 						<h4 class="">Adresse et horaires</h4>
