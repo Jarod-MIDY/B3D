@@ -3,7 +3,6 @@
 <?php include('parts/header.php'); ?>
 
 <section  id="container-slider" class="container">
-  <div class="row justify-content-center">
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- le slider -->
     <div class="carousel-inner">
@@ -38,7 +37,6 @@
     <a class="carousel-control-next" href="#demo" data-slide="next">
     <span class="carousel-control-next-icon"></span></a>
   </div>
-</div>
 </section>
 <section id="container-acceuil" class="container">
   <div id="a-propos" class="row">
