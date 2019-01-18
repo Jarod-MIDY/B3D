@@ -1,5 +1,6 @@
 <?php include('parts/head.php'); ?>
 <?php include('parts/header.php'); ?>
+<?php include('resultat_form.php'); ?>
 
 <section id="formulaire-contact" class="container">
 
@@ -9,7 +10,7 @@
 
 
 
-	<form action="resultat_form.php" method="post">
+	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post">
 
 		<label for='objet'>Vous êtes un : </label>
         <select name="objet">
@@ -53,14 +54,15 @@
 
     <div class="form-row">
 		<div class="form-group col-md-12">
-	        <label for="oui">Veuillez accepter nos <a href="#">conditions générales d'utilisation.</a></label>
+	        <label for="oui">Veuillez accepter notre <a href="#">politique de confidentialité.</a></label>
 	        <input type="checkbox" name="mentionsLegales" value="mentionsLegales" id="mentionsLegales" required><br>
 	    </div>
 	</div>
 
 	<div class="form-row">
 		<div class="col-md-12">
-			<input class="col-md-12" type='submit' name='submit' value='Envoyez votre message !'><br><br>
+			<label for="validationbtn"></label>
+			<input id="validationbtn" class="col-md-12" type='submit' name='validationbtn' value='Envoyez votre message !'><br><br>
 		</div>
 	</div>
 
@@ -72,15 +74,6 @@
 
 </section>
 
-
-<?php
-
-	if($_POST ['submit']){
-		include('resultat_form.php');
-    }
-
-?>
-
-
-
 <?php include('parts/footer.php'); ?>
+
+<script type="text/javascript" src="scripts/script_form.js"></script>
