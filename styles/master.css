@@ -88,6 +88,9 @@ footer {
   margin-top: 2em;
   padding-bottom: 1em;
 }
+footer .link{
+  text-decoration: underline;
+}
 
 /*********************************/
 /*          choix langue          */
@@ -167,6 +170,25 @@ form {
 iframe, .col-md-12 {
   padding-right: 0;
   padding-left: 0;
+}
+
+.chprequired::before {
+  content: "*";
+  color: orangered;
+  font-weight: 600;
+}
+
+.chprequiredbox::after {
+  content: "*";
+  color: orangered;
+  font-weight: 600;
+}
+
+.input-error .chprequired {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: orangered;
+  font-style: italic;
 }
 
 /******************************/

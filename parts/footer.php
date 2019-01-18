@@ -5,8 +5,8 @@
 					<div><a href="#header" class="scroll-up"><i class="fas fa-angle-up fa-3x" style="color: white"></i></a></div>
 					<div><a href="#">B3D</a></div>
 					<div class=""><p>Copyright © 2018-Tout droit Reservé ??</p></div>
-					<p><u><a href="#">Plan de site</a></u> |
-						<u><a href="">Mentions légales</a></u></p>
+					<p><u><a class="link" href="#">Plan de site</a></u> |
+						<u><a class="link" href="">Mentions légales</a></u></p>
 			</div>
 		</div>
 	</footer>
