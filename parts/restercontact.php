@@ -4,7 +4,8 @@
 		<h4 class="display-4  text-center">Restons en contact</h5>
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12  text-center">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5842.045996105945!2d0.07164350144957232!3d44.3446490610251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aa7c208889a78f%3A0x8662b027363dce5a!2sL&#39;Intendant%2C+47700+Poussignac!5e0!3m2!1sfr!2sfr!4v1547805448061" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.yahoo.com/e/?lat=44.34926359035272&amp;lon=0.07158279418945312&amp;q=l%27intendant%2047700%20Poussignac&amp;bb=44.37896245%2C-0.00437737%2C44.31954967%2C0.14737129&amp;addr=l%27intendant%2047700%20Poussignac"></iframe>
+
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12  text-center ">
 						<h4 class="">Adresse et horaires</h4>

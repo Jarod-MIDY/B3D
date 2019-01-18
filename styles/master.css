@@ -26,6 +26,14 @@ section {
   margin:5vh 0;
   padding: 2vh;
 }
+
+p {
+  line-height: 200%;
+}
+
+.cadre {
+  background-color: #9d7752;
+}
 /*****Header*******/
 header nav a  {
   font-family: IBMPlexMono, sans-serif;
@@ -55,8 +63,6 @@ footer a {
   color: #d9c894;
 }
 /*****bloc contactez-nous*******/
-#container-contact-nous {}
-
 #contactNous {
   background-color: #9d7752;
   padding: 1em;
@@ -81,16 +87,6 @@ footer a {
 footer {
   margin-top: 2em;
   padding-bottom: 1em;
-}
-
-/******autres******/
-p {
-  line-height: 200%;
-}
-
-.cadre {
-  border: 2px solid black;
-  border-radius: 1em;
 }
 
 /*********************************/
