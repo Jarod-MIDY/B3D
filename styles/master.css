@@ -20,18 +20,13 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #896437 ;
+  background-color: #c5b38b ;
 }
 section {
   margin:5vh 0;
   padding: 2vh;
 }
 /*****Header*******/
-
-header {
-  margin-bottom: 2em;
-  background-color: #882214;
-}
 header nav a  {
   font-family: IBMPlexMono, sans-serif;
   background: none;
@@ -44,6 +39,11 @@ header nav a  {
 header nav a:hover {
   color: #d9c894;
   background-color: #b79017;
+}
+
+header {
+  margin-bottom: 2em;
+  background-color: #882214;
 }
 /*****Footer*******/
 
@@ -58,17 +58,25 @@ footer a {
 #container-contact-nous {}
 
 #contactNous {
-  background-color: #c3bf82;
-  border: 2px solid black;
-  border-radius: 1em;
+  background-color: #9d7752;
   padding: 1em;
   margin-top: 2em;
 }
 
-#contactNous ul {
-  list-style: none;
+#contactNous .btn-contactNous {
+  background-color: #882214;
 }
 
+#contactNous ul {
+  list-style: none;
+  line-height: 250%;
+}
+#contactNous-adresse {
+  border: 2px solid black;
+}
+.adresse-contact {
+  margin: 8vh 4vh;
+}
 /*****footer*******/
 footer {
   margin-top: 2em;

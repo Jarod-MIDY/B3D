@@ -38,9 +38,9 @@
     <a class="carousel-control-next" href="#demo" data-slide="next">
     <span class="carousel-control-next-icon"></span></a>
   </div>
+</div>
 </section>
 <section id="container-acceuil" class="container">
-  </div>
   <div id="a-propos" class="row">
     <div class="col-lg-6 col-sm-12 col-md-6">
     	<h2>A propos</h2>
