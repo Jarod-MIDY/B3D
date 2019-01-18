@@ -5,6 +5,8 @@
 
 	<h4 class="display-4 text-center">CONTACTEZ-NOUS</h4>
 
+	<?= $messageEnvoi; ?>
+
 
 
 	<form action="resultat_form.php" method="post">
