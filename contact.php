@@ -39,6 +39,7 @@
 		<div class="form-group col-md-6">
 	        <label for='telephone'>Votre numéro de téléphone : </label><br>
 		    <input type="tel" id= 'telephone' name="telephone" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" placeholder="0600000000"><br>
+		    <p class="input-error col-md-12"></p>
 		</div>
 
 		<div class="form-group col-md-6">
@@ -78,6 +79,7 @@
 
 </section>
 
+<script type="text/javascript" src="scripts/script-form.js"></script>
+
 <?php include('parts/footer.php'); ?>
 
-<script type="text/javascript" src="scripts/script_form.js"></script>

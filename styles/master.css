@@ -162,28 +162,24 @@ footer .link{
 form {
   margin-top: 1.5em;
 }
-
 .message {
   height: 140px;
 }
-
 iframe, .col-md-12 {
   padding-right: 0;
   padding-left: 0;
 }
-
 .chprequired::before {
-  content: "*";
+  content: "* ";
   color: orangered;
   font-weight: 600;
 }
 
 .chprequiredbox::after {
-  content: "*";
+  content: " *";
   color: orangered;
   font-weight: 600;
 }
-
 .input-error .chprequired {
   font-size: 1rem;
   margin-bottom: 0;
