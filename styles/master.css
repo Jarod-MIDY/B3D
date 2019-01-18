@@ -174,13 +174,7 @@ iframe, .col-md-12 {
   color: orangered;
   font-weight: 600;
 }
-
-.chprequiredbox::after {
-  content: " *";
-  color: orangered;
-  font-weight: 600;
-}
-.input-error .chprequired {
+.input-error {
   font-size: 1rem;
   margin-bottom: 0;
   color: orangered;

@@ -1,12 +1,12 @@
 $('.input-error').hide();
-const textAlert = 'Merci de remplir ce champs.';
+const textAlert = 'Merci de remplir ce champ.';
 
 $('input, textarea').focusout(function() {
   var errorMessage = $(this).parent().next('.input-error');
   affichageAlerte($(this), errorMessage);
 });
 
-$('#validationbtn').mouseover(function() {
+$('#validationbtn').click(function() {
   var errorMessage = $('.input-error'),
     input = $('input, textarea');
   for (var i = 0; i < errorMessage.length; i++) {

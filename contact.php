@@ -22,14 +22,14 @@
 
 	<div class="form-row">
 		<div class="form-group col-md-6">
-			<label class="chprequired col-md-12" for='name'>Votre nom : </label><br>
-			<input type="text" id='name' name="name" placeholder="Dupont" required><br>
+			<label class="chprequired col-md-12" for='name'>Votre nom : <br>
+			<input type="text" id='name' name="name" placeholder="Dupont" required></label>
 			<p class="input-error col-md-12"></p>
 		</div>
 
        	<div class="form-group col-md-6">
-	        <label class="chprequired col-md-12" for='surname'>Votre prénom : </label><br>
-	        <input type="text" id= 'surname' name="surname" placeholder="Jean" required><br>
+	        <label class="chprequired col-md-12" for='surname'>Votre prénom : <br>
+	        <input type="text" id= 'surname' name="surname" placeholder="Jean" required></label>
 	        <p class="input-error col-md-12"></p>
 	    </div>
     </div>
@@ -37,29 +37,29 @@
 
     <div class="form-row">
 		<div class="form-group col-md-6">
-	        <label for='telephone'>Votre numéro de téléphone : </label><br>
-		    <input type="tel" id= 'telephone' name="telephone" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" placeholder="0600000000"><br>
+	        <label for='telephone'>Votre numéro de téléphone : <br>
+		    <input type="tel" id= 'telephone' name="telephone" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" placeholder="0600000000"></label>
 		    <p class="input-error col-md-12"></p>
 		</div>
 
 		<div class="form-group col-md-6">
-			<label class="chprequired col-md-12" for='email'>Votre email : </label><br>
-			<input type="mail" id= 'email' name="email" placeholder="exemple@email.fr" pattern="[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([_\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})" required><br>
+			<label class="chprequired col-md-12" for='email'>Votre email : <br>
+			<input type="mail" id= 'email' name="email" placeholder="exemple@email.fr" pattern="[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([_\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})" required></label>
 			<p class="input-error col-md-12"></p>
 		</div>
 	</div>
 
     <div class="form-row">
 		<div class="form-group col-md-12">
-	        <label class="chprequired col-md-12" for="msg">Votre message :</label><br>
-		    <textarea name="message" class="message col-md-12" placeholder="Votre message ici" required></textarea><br>
+	        <label class="chprequired col-md-12" for="msg">Votre message :<br>
+		    <textarea name="message" class="message col-md-12" placeholder="Votre message ici" required></textarea></label>
 		    <p class="input-error col-md-12"></p>
 		</div>
 	</div>
 
     <div class="form-row">
 		<div class="form-group col-md-12">
-	        <label for="oui">Veuillez accepter notre <a href="#">politique de confidentialité.</a></label>
+	        <label class="chprequired" for="oui">Veuillez accepter notre <a href="#">politique de confidentialité.</a></label>
 	        <input type="checkbox" name="mentionsLegales" value="mentionsLegales" id="mentionsLegales" required><br>
 	    </div>
 	</div>
