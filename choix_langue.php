@@ -1,4 +1,4 @@
-<div id="choix-langue" class="container-fluid p-5 d-flex justify-content-center align-items-center">
+<div id="choix-langue" class="container-fluid p-5 justify-content-center align-items-center">
 	<div class="">
 		<div class="logo">
 			<img src="imgs/B3D_LogoWhite_petit.png" alt="Logo B3D" class="mx-auto d-block img-fluid">
