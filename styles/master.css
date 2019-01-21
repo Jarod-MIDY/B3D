@@ -20,7 +20,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #c5b38b ;
+  background-color: #C9BC60 ;
 }
 section {
   margin:5vh 0;
@@ -28,11 +28,12 @@ section {
 }
 
 p {
+    color: #d9c894;
   line-height: 200%;
 }
 
 .cadre {
-  background-color: #9d7752;
+  background-color: #7F4F2A;
 }
 /*****Header*******/
 header nav a  {
@@ -40,18 +41,18 @@ header nav a  {
   background: none;
   color: #d9c894;
   font-size: 1.2rem;
-  border-left: 1px solid #b79017;
-  border-bottom: 1px solid #b79017;
+  border-left: 1px solid #D59D10;
+  border-bottom: 1px solid #D59D10;
   margin : 0.4rem;
 }
 header nav a:hover {
-  color: #d9c894;
-  background-color: #b79017;
+  color: #B52E1B;
+  background-color: #D59D10;
 }
 
 header {
   margin-bottom: 2em;
-  background-color: #882214;
+  background-color: #B52E1B;
 }
 /*****Footer*******/
 
@@ -192,7 +193,7 @@ iframe, .col-md-12 {
     margin: 0;
     padding: 0;
   }
-  
+
   header nav a {
     border: none;
   }
