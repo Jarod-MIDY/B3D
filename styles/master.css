@@ -48,14 +48,14 @@ header nav a {
   background: none;
   color: #d9c894;
   font-size: 1.2rem;
-  border-left: 1px solid #D59D10;
-  border-bottom: 1px solid #D59D10;
+  //border-left: 1px solid #D59D10;
+  //border-bottom: 1px solid #D59D10;
   margin: 0.4rem;
 }
 
 header nav a:hover {
   color: #B52E1B;
-  background-color: #D59D10;
+  //background-color: #D59D10;
 }
 
 #eye {
@@ -67,6 +67,24 @@ header {
   background-color: #B52E1B;
 }
 
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #EF9B00;
+}
 /*****Footer*******/
 footer {
   background-color: #B52E1B;
