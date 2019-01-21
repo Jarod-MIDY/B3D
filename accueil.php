@@ -10,25 +10,25 @@
       	<img src="imgs/slider_accueil/julienR.jpg" alt="Monsieur Procedes">
       </div>
       <div class="carousel-item">
-      	<img src="imgs/slider_accueil/Acacia1.JPG" alt="Bois d'acacia coupé">
+      	<img src="imgs/slider_accueil/Acacia1.jpg" alt="Bois d'acacia coupé">
       </div>
       <div class="carousel-item">
         <img src="imgs/slider_accueil/tasBois1.jpg" alt="Un tas de bois">
       </div>
       <div class="carousel-item">
-        <img src="imgs/slider_accueil/Acacia3.JPG" alt="Bois d'acacia coupé">
+        <img src="imgs/slider_accueil/Acacia3.jpg" alt="Bois d'acacia coupé">
       </div>
       <div class="carousel-item">
-        <img src="imgs/slider_accueil/Acacia7.JPG" alt="Bois d'acacia coupé">
+        <img src="imgs/slider_accueil/Acacia7.jpg" alt="Bois d'acacia coupé">
       </div>
       <div class="carousel-item">
-        <img src="imgs/slider_accueil/P1050506.JPG" alt="Piquets d'acacia">
+        <img src="imgs/slider_accueil/P1050506.jpg" alt="Piquets d'acacia">
       </div>
       <div class="carousel-item">
-      	<img src="imgs/slider_accueil/Acacia9.JPG" alt="Bois d'acacia coupé">
+      	<img src="imgs/slider_accueil/Acacia9.jpg" alt="Bois d'acacia coupé">
       </div>
       <div class="carousel-item">
-    		<img src="imgs/slider_accueil/Chataigner2.JPG" alt="Bois de chataigner coupé">
+    		<img src="imgs/slider_accueil/Chataigner2.jpg" alt="Bois de chataigner coupé">
     	</div>
     </div>
     <!-- controle du slider -->
