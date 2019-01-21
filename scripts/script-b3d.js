@@ -14,10 +14,10 @@ $(".scroll-up").click(function() {
 
 //scroll du choix de langue
 $(".scroll-langue").click(function() {
-  var section = $('#header');
-  $("html,body").animate({
-    scrollTop: section.offset().top
-  }, 300);
-  var section2 = $('#choix-langue');
-  section2.css('display','none');
+  $('#choix-langue').animate({
+    'height' : '-=100%',
+  },400);
+  setTimeout(function(){
+    $('#choix-langue').hide();
+  },300)
 });
