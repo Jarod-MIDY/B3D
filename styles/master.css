@@ -32,6 +32,10 @@ p {
   line-height: 200%;
 }
 
+h5 {
+  color: #d9c894;
+}
+
 .cadre {
   background-color: #7F4F2A;
 }
@@ -57,15 +61,20 @@ header {
 /*****Footer*******/
 
 footer {
-  background-color: #882214;
+  background-color: #B52E1B;
   color: #d9c894;
+  margin-top: 2em;
+  padding-bottom: 1em;
 }
 footer a {
   color: #d9c894;
 }
+footer .link{
+  text-decoration: underline;
+}
 /*****bloc contactez-nous*******/
 #contactNous {
-  background-color: #9d7752;
+    background-color: #7F4F2A;
   padding: 1em;
   margin-top: 2em;
 }
@@ -84,15 +93,6 @@ footer a {
 .adresse-contact {
   margin: 8vh 4vh;
 }
-/*****footer*******/
-footer {
-  margin-top: 2em;
-  padding-bottom: 1em;
-}
-footer .link{
-  text-decoration: underline;
-}
-
 /*********************************/
 /*          choix langue          */
 #choix-langue {
