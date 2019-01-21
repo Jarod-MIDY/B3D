@@ -1,7 +1,7 @@
 <?php include('parts/head.php'); ?>
 <?php include('parts/header.php'); ?>
 
-<section>
+<section id="plan-site">
   
 </section>
 
