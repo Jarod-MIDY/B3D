@@ -3,10 +3,10 @@
 	<div id="menu-portable" class="navbar-responsive text-center">
 		<nav>
 			<ul>
-				<li><a id="accueil" class="sliding-middle-out" href="#">Accueil</a></li>
+				<li><a id="accueil" class="sliding-middle-out" href="index.php">Accueil</a></li>
 				<li><a id="nosProduits" class="sliding-middle-out" href="les-produits.php">Nos produits</a></li>
 				<li><a id="entreprise" class="sliding-middle-out" href="societe.php">L'entreprise</a></li>
-				<li><a id="contact" class="sliding-middle-out" href="#">Contact</a></li>
+				<li><a id="contact" class="sliding-middle-out" href="contact.php">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -21,7 +21,7 @@
 				<nav class=" d-none d-lg-block">
 					<!-- menu --->
 					<ul class="nav ">
-						<li class="nav-item"><a id="accueil" class="nav-link sliding-middle-out" href="accueil.php">Accueil</a></li>
+						<li class="nav-item"><a id="accueil" class="nav-link sliding-middle-out" href="index.php#header">Accueil</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="les-produits.html" id="navbardrop" role="button" data-toggle="dropdown" data-hover="">Nos Produits</a>
 							<div class="dropdown-menu">
