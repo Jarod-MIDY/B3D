@@ -58,6 +58,10 @@ header nav a:hover {
   background-color: #D59D10;
 }
 
+#eye {
+  cursor: pointer;
+}
+
 header {
   margin-bottom: 2em;
   background-color: #B52E1B;

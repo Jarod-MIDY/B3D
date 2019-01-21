@@ -45,7 +45,7 @@
 						</li>
 						<li class="list-inline-item">
 							<!-- choix langue & handicap -->
-							<a class="social-icon text-xs-center" target="_blank" href="#"><i class="far fa-eye fa-2x" style="color: #ffffff"></i></a>
+							<a id="eye" class="social-icon text-xs-center"><i class="far fa-eye fa-2x" style="color: #ffffff"></i></a>
 						</li>
 						<li class="list-inline-item">
 							<a class="social-icon text-xs-center" target="_blank" href="#"><i class="fas fa-globe fa-2x" style="color: #ffffff"></i></a>

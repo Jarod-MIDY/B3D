@@ -18,6 +18,6 @@
 
 
 	<script src="scripts/script-b3d.js"></script>
+	<script src="scripts/malvoyant.js"></script>
 </body>
-
 </html>
