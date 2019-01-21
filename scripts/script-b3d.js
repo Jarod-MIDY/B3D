@@ -18,4 +18,6 @@ $(".scroll-langue").click(function() {
   $("html,body").animate({
     scrollTop: section.offset().top
   }, 300);
+  var section2 = $('#choix-langue');
+  section2.css('display','none');
 });
