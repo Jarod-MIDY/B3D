@@ -9,7 +9,7 @@
 						<p>B3D</p>
 					</div>
 					<div class="">
-						<p>Copyright © 2018-Tous droits reservés ??</p>
+						<p>Copyright © <?php echo date('Y')?>-Tous droits reservés ??</p>
 					</div>
 					<p><a class="link" href="#">Plan de site</a> | <a class="link" href="">Mentions légales</a></p>
 			</div>
