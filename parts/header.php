@@ -21,18 +21,18 @@
 				<nav class=" d-none d-lg-block">
 					<!-- menu --->
 					<ul class="nav ">
-						<li class="nav-item"><a id="accueil" class="nav-link sliding-middle-out" href="index.php#header">Accueil</a></li>
-						<li class="nav-item dropdown">
+						<li class="nav-item  sliding-middle-out"><a id="accueil" class="nav-link" href="index.php#header">Accueil</a></li>
+						<li class="nav-item dropdown sliding-middle-out">
 							<a class="nav-link dropdown-toggle" href="les-produits.html" id="navbardrop" role="button" data-toggle="dropdown" data-hover="">Nos Produits</a>
 							<div class="dropdown-menu">
-								<a href="produit.php" class="dropdown-item ">Piquets chataigniers</a>
-								<a href="produit.php" class="dropdown-item ">Piquets acacia</a>
-								<a href="produit.php" class="dropdown-item ">Piquets pin</a>
-								<a href="produit.php" class="dropdown-item ">Bois de feu</a>
+								<a href="produit.php" class="dropdown-item sliding-middle-out">Piquets chataigniers</a>
+								<a href="produit.php" class="dropdown-item sliding-middle-out">Piquets acacia</a>
+								<a href="produit.php" class="dropdown-item sliding-middle-out">Piquets pin</a>
+								<a href="produit.php" class="dropdown-item sliding-middle-out">Bois de feu</a>
 							</div>
 						</li>
-						<li class="nav-item"><a id="entreprise" class="nav-link sliding-middle-out" href="societe.php">L'entreprise</a></li>
-						<li class="nav-item"><a id="contact" class="nav-link sliding-middle-out" href="contact.php">Contact</a></li>
+						<li class="nav-item sliding-middle-out"><a id="entreprise" class="nav-link" href="societe.php">L'entreprise</a></li>
+						<li class="nav-item sliding-middle-out"><a id="contact" class="nav-link" href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
