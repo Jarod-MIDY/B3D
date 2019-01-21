@@ -34,12 +34,24 @@ p {
   line-height: 200%;
 }
 
-h5, h2 {
+h5, h2, ul, li {
   color: #d9c894;
 }
 
+hr {
+  border-color: #d9c894;
+  line-height: 200%;
+}
+
+
 .cadre {
   background-color: #7F4F2A;
+}
+
+.cadreCGU {
+  background-color: #7F4F2A;
+  margin: 2vh 2vh;
+  padding: 1rem;
 }
 
 /*****Header*******/
