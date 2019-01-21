@@ -6,10 +6,10 @@
 						<a href="#header" class="scroll-up"><i class="fas fa-angle-up fa-3x" style="color: white"></i></a>
 					</div>
 					<div>
-						<a href="#">B3D</a>
+						<p>B3D</p>
 					</div>
 					<div class="">
-						<p>Copyright © 2018-Tout droit Reservé ??</p>
+						<p>Copyright © 2018-Tous droits reservés ??</p>
 					</div>
 					<p><a class="link" href="#">Plan de site</a> | <a class="link" href="">Mentions légales</a></p>
 			</div>
