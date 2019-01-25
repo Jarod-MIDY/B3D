@@ -1,16 +1,5 @@
 <body>
-<!-- début menu tel tablette vertical -->
-	<div id="menu-portable" class="navbar-responsive text-center">
-		<nav>
-			<ul>
-				<li><a id="accueil" class="sliding-middle-out" href="index.php">Accueil</a></li>
-				<li><a id="nosProduits" class="sliding-middle-out" href="les-produits.php">Nos produits</a></li>
-				<li><a id="entreprise" class="sliding-middle-out" href="societe.php">L'entreprise</a></li>
-				<li><a id="contact" class="sliding-middle-out" href="contact.php">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
-<!-- fin menu tel tablette vertical -->
+
 <!-- debut menu PC tablette horizontal -->
 	<header id="header" class="container-fluid pt-3 d-flex ">
 		<div class='row justify-content-around m-0 pt-0 pb-2 flex-grow-1 '>
@@ -54,4 +43,17 @@
 				</div>
 			</div>
 		</div>
+
 	</header>
+	<!-- début menu tel tablette vertical -->
+		<div id="menu-portable" class="navbar-responsive text-center">
+			<nav>
+				<ul>
+					<li><a id="accueil" class="sliding-middle-out" href="index.php">Accueil</a></li>
+					<li><a id="nosProduits" class="sliding-middle-out" href="les-produits.php">Nos produits</a></li>
+					<li><a id="entreprise" class="sliding-middle-out" href="societe.php">L'entreprise</a></li>
+					<li><a id="contact" class="sliding-middle-out" href="contact.php">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	<!-- fin menu tel tablette vertical -->

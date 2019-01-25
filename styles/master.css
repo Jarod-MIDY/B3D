@@ -21,7 +21,16 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #C9BC60;
+  background-image: url("../imgs/forêt-de-dessin.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  /*background-color: #C9BC60;*/
 }
 
 section {
@@ -43,6 +52,9 @@ hr {
   line-height: 200%;
 }
 
+.sous-titre {
+  color: black;
+}
 
 .cadre {
   background-color: #7F4F2A;
@@ -53,6 +65,8 @@ hr {
   margin: 2vh 2vh;
   padding: 1rem;
 }
+
+
 
 /*****Header*******/
 header nav a {
@@ -75,7 +89,7 @@ header nav a:hover {
 }
 
 header {
-  margin-bottom: 2em;
+  margin-bottom: 0;
   background-color: #B52E1B;
 }
 
@@ -101,7 +115,7 @@ header {
 footer {
   background-color: #B52E1B;
   color: #d9c894;
-  margin-top: 2em;
+  margin-top: 0;
   padding-bottom: 1em;
 }
 
@@ -150,7 +164,7 @@ footer .link {
 /*********************************/
 /*          choix langue          */
 #choix-langue {
-  display: flex;	
+  display: flex;
   background-image: url("../imgs/B3D_Essences_Acacia_11.jpg");
   height: 100%;
   background-attachment: fixed;
@@ -179,7 +193,7 @@ footer .link {
 
 /*******************************/
 /*        page accueil         */
-#container-acceuil {
+#container-accueil {
   background-color: #7F4F2A;
 }
 
@@ -298,7 +312,7 @@ iframe, .col-md-12 {
   }
 
   body {
-    background: #b95c16;
+    /*background: #b95c16;*/
   }
 
   footer {

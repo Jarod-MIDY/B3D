@@ -2,7 +2,7 @@
 <?php include('parts/header.php'); ?>
 <section id="produit" class="container">
   <h3 class="display-3 text-center">Piquets en châtaignier</h3>
-  <p class="text-center"><em>Issus de forêts locales, nos piquets en châtaigniers sont naturellement durable et utilisés en agriculture depuis la nuit des temps.</em> </p>
+  <p class="text-center sous-titre"><em>Issus de forêts locales, nos piquets en châtaigniers sont naturellement durable et utilisés en agriculture depuis la nuit des temps.</em> </p>
   <div class="row justify-content-end">
     <div class="col-lg-1"></div>
     <div class="col-lg-11 col-sm-12 col-md-12">
