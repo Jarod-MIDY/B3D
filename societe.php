@@ -5,8 +5,7 @@
   <h3 class="display-3 text-center">L'Entreprise</h3>
     <div class="row justify-content-start">
       <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="row justify-content-center texte-entreprise cadre">
-
+        <div class="row justify-content-center bloc-texte cadre">
           <div class="row justify-content-center">
             <div class="col-lg-5 col-md-4 col-sm-10 d-flex align-items-center">
               <img class="img-fluid" src="imgs/tas_piquets.jpg" alt="" >
@@ -22,8 +21,8 @@
 
     <div class="row justify-content-end ">
       <div class="col-lg-9 col-md-12 col-sm-12 ">
-      <div class="row justify-content-center texte-entreprise cadre">
-        <div id="zone2-entreprise" class="rjustify-content-center">
+      <div class="row justify-content-center bloc-texte cadre">
+        <div id="zone2-entreprise" class="row justify-content-center">
           <div class="col-lg-7 col-md-6 col-sm-12  ">
             <h4 class="mx-auto">Développement durable</h4>
             <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
@@ -38,7 +37,7 @@
 
     <div class="row justify-content-start">
       <div class="col-lg-9  col-md-12 col-sm-12  ">
-        <div class="row justify-content-center texte-entreprise cadre">
+        <div class="row justify-content-center bloc-texte cadre">
           <div class="row justify-content-center ">
             <div class="col-lg-5 col-md-4 col-sm-10 d-flex align-items-center">
               <img class=" img-fluid" src="imgs/tas_piquets.jpg" alt="">

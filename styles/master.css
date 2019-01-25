@@ -66,7 +66,12 @@ hr {
   padding: 1rem;
 }
 
-
+.bloc-texte {
+  margin: 2em;
+  padding: 1em;
+  background-color: #7F4F2A;
+  border-radius: 3px;
+}
 
 /*****Header*******/
 header nav a {
@@ -193,7 +198,7 @@ footer .link {
 
 /*******************************/
 /*        page accueil         */
-#container-accueil {
+.bloc-accueil {
   background-color: #7F4F2A;
 }
 
@@ -223,10 +228,7 @@ footer .link {
 
 /*******************************/
 /*       page entreprise     */
-.texte-entreprise {
-  margin: 2em;
-  padding: 1em;
-}
+
 
 /*******************************/
 /*      page-contact           */
