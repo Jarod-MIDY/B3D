@@ -47,9 +47,14 @@ h5, h2, ul, li {
   color: #d9c894;
 }
 
+h4 {
+  color: #d9c894;
+  text-align: center;
+}
+
 hr {
   border-color: #d9c894;
-  line-height: 200%;
+  line-height: 800%;
 }
 
 .sous-titre {
