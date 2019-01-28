@@ -13,7 +13,7 @@
 								<li><span class="underline">Mail :</span> julien.procedes@orange.fr</li>
 								<li><span class="underline">Adresse :</span> Julien PROCEDES</li>
 								<li>B3D L'intendant 47700 Poussignac</li>
-								<li><span class="underline">Horaires :</span> Du lundi au vendredi 8h - 12h 14h - 18h et samedi 9h - 12h</li>
+								<li><span class="underline">Horaires :</span> <ul class="text-center"><li>Du lundi au vendredi 8h - 12h 14h - 18h</li><li> et samedi 9h - 12h</li></ul></li>
 							</ul>
 						</div>
 						<a href="contact.php" target="" title="ouvre le formulaire de contact"><button type="button" class="btn btn-contactNous"><i class="fas fa-chevron-circle-right"></i> Me contactez</button></a>
