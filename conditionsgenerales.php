@@ -1,7 +1,9 @@
 <?php include('parts/head.php'); ?>
 <?php include('parts/header.php'); ?>
 
-<section class="container w-75"><br><br>
+<section class="container w-75">
+	<div class="mb-5" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
+	<br><br>
 	<h1>Conditions générales d'utilisation du site B3D</h1><br>
 
 	<section class="row cadreCGU"><br>
@@ -72,6 +74,6 @@
             En cas de litige non résolu à l’amiable entre l’Utilisateur et l’Éditeur, les tribunaux de Cahors sont compétents pour régler le contentieux.</p>
     </section>
 </section>
-    
+
 		<?php include('parts/restercontact.php'); ?>
 		<?php include('parts/footer.php'); ?>

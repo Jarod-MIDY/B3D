@@ -3,7 +3,7 @@
 <?php include('resultat_form.php'); ?>
 
 <section id="formulaire-contact" class="container p-5">
-
+<div class="mb-5" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
 <div class="bloc-texte ">
 	<h4 class="display-4 text-center">CONTACTEZ-NOUS</h4>
 

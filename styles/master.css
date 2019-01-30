@@ -288,6 +288,10 @@ iframe, .col-md-12 {
   font-style: italic;
 }
 
+label{
+  color: #d9c894;
+}
+
 /******************************/
 @media (max-width: 769px) {
   html {
