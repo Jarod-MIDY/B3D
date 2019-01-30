@@ -21,7 +21,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../imgs/forêt-de-dessin.jpg");
+  background-image: url("../imgs/paralax_01.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
