@@ -1,35 +1,29 @@
-<?php include('parts/head.php'); ?>
-<?php include('choix_langue.php'); ?>
-<?php include('parts/header.php'); ?>
+<?php
+include('parts/head.php');
+include('choix_langue.php');
+include('parts/header.php');
+$langue = $_SESSION['langue'];
+$req = $db->prepare('SELECT ?, image FROM b3d_altimages LIMIT 8');
+$req->execute([$langue]);
+ ?>
 
 <section  id="container-slider" class="container">
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- le slider -->
     <div class="carousel-inner">
-    	<div class="carousel-item active">
-        <img src="imgs/slider_accueil/tasBois1.jpg" alt="Un tas de bois">
-      </div>
-      <div class="carousel-item">
-      	<img src="imgs/slider_accueil/Acacia1.jpg" alt="Bois d'acacia coupé">
-      </div>
-      <div class="carousel-item">
-        <img src="imgs/slider_accueil/julienR.jpg" alt="Monsieur Procedes">
-      </div>
-      <div class="carousel-item">
-        <img src="imgs/slider_accueil/Acacia3.jpg" alt="Bois d'acacia coupé">
-      </div>
-      <div class="carousel-item">
-        <img src="imgs/slider_accueil/Acacia7.jpg" alt="Bois d'acacia coupé">
-      </div>
-      <div class="carousel-item">
-        <img src="imgs/slider_accueil/P1050506.jpg" alt="Piquets d'acacia">
-      </div>
-      <div class="carousel-item">
-      	<img src="imgs/slider_accueil/Acacia9.jpg" alt="Bois d'acacia coupé">
-      </div>
-      <div class="carousel-item">
-    		<img src="imgs/slider_accueil/Chataigner2.jpg" alt="Bois de chataigner coupé">
-    	</div>
+      <?php
+      $a = true;
+      while ($data = $req->fetch()) {
+        echo '<div class="carousel-item';
+        if ($a) {
+        echo  ' active';
+        $a = false;
+        }
+        echo '">
+          <img src="imgs/slider_accueil/'.$data['image'].'" alt="'.$data["$langue"].'">
+        </div>';
+      }
+       ?>
     </div>
     <!-- controle du slider -->
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
