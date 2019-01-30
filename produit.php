@@ -20,7 +20,7 @@
           </div> -->
         </div>
         <div class="col-lg-4 col-sm-12 col-md-4 d-flex align-items-center">
-          <img class=" img-fluid" src="http://s3.amazonaws.com/everystockphoto/fspid30/71/72/96/5/emst-gelderland-holland-7172965-h.jpg" alt="card image">
+          <img class=" img-fluid" src="imgs/produit_01.jpg" alt="card image">
         </div>
       </div>
       <div class="row">
@@ -34,13 +34,13 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-12 col-md-4">
-          <img class=" img-fluid" src="https://images.freeimages.com/images/small-previews/dfb/pied-de-vigne-1327449.jpg" alt="card image">
+          <img class=" img-fluid" src="imgs/produit_02.jpg" alt="card image">
         </div>
         <div class="col-lg-4 col-sm-12 col-md-4 d-flex align-items-center">
-          <img class=" img-fluid" src="http://s3.amazonaws.com/everystockphoto/fspid30/84/33/88/9/sigma-sigmadp2-foveon-8433889-l.jpg" alt="card image">
+          <img class=" img-fluid" src="imgs/produit_03.jpg" alt="card image">
         </div>
         <div class="col-lg-4 col-sm-12 col-md-4">
-          <img class=" img-fluid" src="imgs/tas_piquets.jpg" alt="card image">
+          <img class=" img-fluid" src="imgs/produit_04.jpg" alt="card image">
         </div>
       </div>
     </div>
