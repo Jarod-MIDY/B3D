@@ -16,7 +16,7 @@
 								<li><span class="underline">Horaires :</span> <ul class="text-center"><li>Du lundi au vendredi 8h - 12h 14h - 18h</li><li> et samedi 9h - 12h</li></ul></li>
 							</ul>
 						</div>
-						<a href="contact.php" target="" title="ouvre le formulaire de contact"><button type="button" class="btn btn-contactNous"><i class="fas fa-chevron-circle-right"></i> Me contactez</button></a>
+						<a href="contact.php" target="" title="ouvre le formulaire de contact"><button type="button" class="btn btn-contactNous"><i class="fas fa-chevron-circle-right"></i> Me contacter</button></a>
 					</div>
 				</div>
 			</div>
