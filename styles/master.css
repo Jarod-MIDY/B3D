@@ -77,6 +77,15 @@ hr {
   background-color: #7F4F2A;
   border-radius: 3px;
 }
+.bloc-map{
+  display: flex;
+  margin-top: 1.5em;
+  padding: 0.2em;
+  background-color: #7F4F2A;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /*****Header*******/
 header nav a {
