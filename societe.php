@@ -35,7 +35,7 @@
             <p>Nos piquets et rondins sont produits à partir de grumes exploitées dans un rayon de 70 km.<br>Le pin provient de coupes d’éclaircies plantées après la tempête de 1999.<br>Ces bois juvéniles utilisés généralement pour la mise en place de filets anti-grêle ou le palissage comportent une très faible proportion de bois de cœur leurs donnant une très bonne aptitude au traitement autoclave.<br>Nos grumes d’acacia comportent une très faible quantité d’aubier et des cernes d’accroissement serrées conférant au bois une excellente durabilité naturelle et une très bonne résistance mécanique.<br>L’ensemble de nos bois proviennent de coupes gérées durablement et bénéficie généralement de la certification PEFC.</p>
           </div>
           <div class="col-lg-5 col-md-4 col-sm-10 d-flex align-items-center mx-0 my-0">
-            <img class="mx-0 my-0 img-fluid" src="imgs/societe_02.jpg" alt="">
+            <img class="mx-0 my-0 img-fluid" src="imgs/societe_02b.jpg" alt="">
           </div>
         </div>
         <div><?php include('tableau/tableau_environnement.php')?></div>

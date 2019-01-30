@@ -2,9 +2,9 @@
 <?php include('parts/header.php'); ?>
 <?php include('resultat_form.php'); ?>
 
-<section id="formulaire-contact" class="container">
+<section id="formulaire-contact" class="container p-5">
 
-<div class="bloc-texte">
+<div class="bloc-texte ">
 	<h4 class="display-4 text-center">CONTACTEZ-NOUS</h4>
 
 	<?= $messageEnvoi; ?>
@@ -84,4 +84,3 @@
 <script type="text/javascript" src="scripts/script-form.js"></script>
 
 <?php include('parts/footer.php'); ?>
-
