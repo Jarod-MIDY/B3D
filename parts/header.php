@@ -1,10 +1,10 @@
 <body>
 
 <!-- debut menu PC tablette horizontal -->
-	<header id="header" class="container-fluid pt-3 d-flex ">
+	<header id="header" class="container-fluid pt-1 d-flex ">
 		<div class='row justify-content-around m-0 pt-0 pb-2 flex-grow-1 '>
 			<div class="col-lg-3 col-md-8 col-sm-10">
-				<a id="logo" href="index.php#header"><img src="imgs/logo_blanc_100.png" class="align-self-center img-fluid w-50"></a>
+				<a id="logo" href="index.php#header"><img src="imgs/logo_blanc_100.png" class="align-self-center img-fluid"></a>
 			</div>
 			<div class="col-lg-6 col-md-8 col-sm-10 justify-content-center d-flex align-items-center ">
 				<nav class=" d-none d-lg-block">

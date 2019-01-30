@@ -8,7 +8,7 @@ $req->execute([$langue]);
  ?>
 
 <section  id="container-slider" class="container">
-  <div class="mb-5" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
+  <div class="mb-1" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
   <div id="demo" class="carousel slide bloc-texte" data-ride="carousel">
     <!-- le slider -->
     <div class="carousel-inner">
