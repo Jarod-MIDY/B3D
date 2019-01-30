@@ -1,6 +1,8 @@
-<?php include('parts/head.php'); ?>
-<?php include('choix_langue.php'); ?>
-<?php include('parts/header.php'); ?>
+<?php
+include('parts/head.php');
+include('choix_langue.php');
+include('parts/header.php');
+ ?>
 
 <section  id="container-slider" class="container">
   <div id="demo" class="carousel slide" data-ride="carousel">
