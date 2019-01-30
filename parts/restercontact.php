@@ -9,11 +9,11 @@
 						<h4 class="display-4  text-center">Restons en contact</h4>
 						<div class="row text-left">
 							<ul class="adresse-contact">
-								<li><span class="underline">Télephone :</span> 06-74-90-65-96</li>
-								<li><span class="underline">Mail :</span> julien.procedes@orange.fr</li>
-								<li><span class="underline">Adresse :</span> Julien PROCEDES</li>
+								<li><span class="underline">Télephone</span> : 06-74-90-65-96</li>
+								<li><span class="underline">Mail</span> : julien.procedes@orange.fr</li>
+								<li><span class="underline">Adresse</span> : Julien PROCEDES</li>
 								<li>B3D L'intendant 47700 Poussignac</li>
-								<li><span class="underline">Horaires :</span> <ul class="text-center"><li>Du lundi au vendredi 8h - 12h 14h - 18h</li><li> et samedi 9h - 12h</li></ul></li>
+								<li><span class="underline">Horaires</span> : <ul class="text-center"><li>Du lundi au vendredi 8h - 12h 14h - 18h</li><li> et samedi 9h - 12h</li></ul></li>
 							</ul>
 						</div>
 						<a href="contact.php" target="" title="ouvre le formulaire de contact"><button type="button" class="btn btn-contactNous"><i class="fas fa-chevron-circle-right"></i> Me contacter</button></a>
