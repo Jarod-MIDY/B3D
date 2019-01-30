@@ -39,7 +39,7 @@ $req->execute([$langue]);
       <div class="row justify-content-center bloc-texte cadre">
         <div class="row justify-content-center">
           <div class="col-lg-5 col-md-4 col-sm-10 d-flex align-items-center">
-            <img class="img-fluid" src="imgs/Colis_4.jpg" alt="Tas de piquets en bois d'acacia" >
+            <img class="img-fluid" src="imgs/accueil_01.jpg" alt="Tas de piquets en bois d'acacia" >
           </div>
           <div class="col-lg-7 col-md-6 col-sm-12">
     	<p>Fort de 20 ans d’expérience dans la ﬁlière bois, j’ai souhaité faire un retour aux sources en m’installant dans l’ancienne scierie familiale située au plus près de la ressource forestière.<br>Je me suis spécialisé dans la fabrication de piquets et rondins d’acacia, pins ou châtaignier.<br>Mon outil de production souple et flexible permet de produire des piquets ou rondins fendus ou ronds de différentes dimensions.<br>Destinés aux vignerons, paysagistes, arboriculteurs, ou tout simplement aux particuliers désireux de créer une clôture ou un aménagement de jardin, les piquets et rondins B3D sont une valeur sûre.
@@ -63,7 +63,7 @@ $req->execute([$langue]);
 
     </div>
     <div class="col-lg-5 col-md-4 col-sm-10 d-flex align-items-center">
-      <img class="img-fluid" src="imgs/piquets_pins.jpg" alt="Tas de piquets en bois d'acacia" >
+      <img class="img-fluid" src="imgs/accueil_02.jpg" alt="Tas de piquets en bois d'acacia" >
     </div>
   </div>
 </div>
