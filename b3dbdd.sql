@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le :  mer. 30 jan. 2019 à 12:01
+-- Généré le :  mer. 30 jan. 2019 à 13:51
 -- Version du serveur :  5.7.24-0ubuntu0.18.04.1
 -- Version de PHP :  7.2.10-0ubuntu0.18.04.1
 
@@ -28,6 +28,7 @@ SET time_zone = "+00:00";
 -- Structure de la table `b3d_altimages`
 --
 
+DROP TABLE IF EXISTS `b3d_altimages`;
 CREATE TABLE `b3d_altimages` (
   `ID` smallint(6) NOT NULL,
   `Francais` text NOT NULL,
@@ -57,6 +58,7 @@ INSERT INTO `b3d_altimages` (`ID`, `Francais`, `Anglais`, `Espagnol`, `Allemand`
 -- Structure de la table `b3d_footer`
 --
 
+DROP TABLE IF EXISTS `b3d_footer`;
 CREATE TABLE `b3d_footer` (
   `ID` smallint(6) NOT NULL,
   `Francais` text NOT NULL,
@@ -80,6 +82,7 @@ INSERT INTO `b3d_footer` (`ID`, `Francais`, `Anglais`, `Espagnol`, `Allemand`) V
 -- Structure de la table `b3d_generaltexte`
 --
 
+DROP TABLE IF EXISTS `b3d_generaltexte`;
 CREATE TABLE `b3d_generaltexte` (
   `ID` smallint(6) NOT NULL,
   `Francais` text NOT NULL,
@@ -101,7 +104,12 @@ INSERT INTO `b3d_generaltexte` (`ID`, `Francais`, `Anglais`, `Espagnol`, `Allema
 (5, 'Moins durable dans le temps que l’acacia, le châtaigner en reste néanmoins une essence imputrescible grâce à sa présence d’acide tanique. L’ensemble de nos produits châtaigner sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites sur le site de la clientèle. Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm² est réalisée gros bout. L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les déformations de séchage.', 'Less durable in time than acacia, chestnut remains nevertheless a rot-proof essence due to its presence of tannic acid. All of our chestnut products are debarked to bring more aesthetics and cleanliness to the stakes but especially to avoid carrying parasites on the site of the customers. Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm² is made big end. The slot operation allows the wood to retain its mechanical strength and limit drying deformations.', 'Menos duradera en el tiempo que la acacia, la castaña sigue siendo una esencia a prueba de podredumbre debido a su presencia de ácido tánico. Todos nuestros productos de castaño están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos en el sitio de los clientes. Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área entre 1 y 1,5 cm² se hace grande. La operación de la ranura permite que la madera retenga su resistencia mecánica y limite las deformaciones de secado.', 'Mit der Zeit weniger haltbar als Akazie, bleibt die Kastanie aufgrund ihrer Anwesenheit von Gerbsäure dennoch verrottungssicher. Alle unsere Kastanienprodukte sind entrindet, um den Pfählen mehr Ästhetik und Sauberkeit zu bieten, vor allem aber das Tragen von Parasiten auf dem Gelände der Kunden zu vermeiden. Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm² ist ein großes Ende. Durch den Schlitzbetrieb behält das Holz seine mechanische Festigkeit und begrenzt die Verformungen beim Trocknen.', 8),
 (6, 'Notre bois de chauffage issu de notre production de piquets acacia est vendu sous forme de fagots de 2 ou 2,5 stères ou de bûches fendues de 30 cm.', 'Our firewood from our production of acacia stakes is sold in bundles of 2 or 2.5 steres or 30 cm split logs.\r\n', 'Nuestra leña proveniente de nuestra producción de estacas de acacia se vende en paquetes de 2 o 2,5 steres o troncos de 30 cm.\r\n', 'Unser Brennholz aus unserer Akazienproduktion wird in Bündeln von 2 oder 2,5 Steres oder 30-cm-Spaltholz verkauft.\r\n', 9),
 (7, 'Les résultats obtenus montrent que la fabrication d’un pieu en bois émet environ 30 fois moins de CO2 que la fabrication d’un pieu en béton et 850 fois moins que celle d’un pieu acier.', 'The results obtained show that the manufacture of a wooden pile emits approximately 30 times less CO2 than the manufacture of a concrete pile and 850 times less than that of a steel pile.\r\n', 'Los resultados obtenidos muestran que la fabricación de una pila de madera emite aproximadamente 30 veces menos CO2 que la fabricación de una pila de hormigón y 850 veces menos que la de una pila de acero.\r\n', 'Die erzielten Ergebnisse zeigen, dass bei der Herstellung eines Holzpfahls etwa 30 Mal weniger CO2 freigesetzt wird als bei der Herstellung eines Betonpfahls und 850 Mal weniger als bei einem Stahlpfahl.\r\n', 10),
-(8, 'Comparaison des émissions de CO2 pour la fabrication de pieux en béton, en acier et en bois.', 'Comparison of CO2 emissions for the manufacture of concrete, steel and wood piles.', 'Comparación de emisiones de CO2 para la fabricación de pilotes de hormigón, acero y madera.', 'Vergleich der CO2-Emissionen bei der Herstellung von Beton-, Stahl- und Holzpfählen.', 10);
+(8, 'Comparaison des émissions de CO2 pour la fabrication de pieux en béton, en acier et en bois.', 'Comparison of CO2 emissions for the manufacture of concrete, steel and wood piles.', 'Comparación de emisiones de CO2 para la fabricación de pilotes de hormigón, acero y madera.', 'Vergleich der CO2-Emissionen bei der Herstellung von Beton-, Stahl- und Holzpfählen.', 10),
+(9, 'Les présentes « conditions générales d\'utilisation » ont pour objet l\'encadrement juridique de l’utilisation du site B3D et de ses services.<br>\r\n		Ce contrat est conclu entre :<br>\r\n		Le gérant du site internet, ci-après désigné « l’Éditeur »,<br>\r\n		Toute personne physique ou morale souhaitant accéder au site et à ses services, ci-après appelé « l’Utilisateur ».\r\n		<br>\r\n		Les conditions générales d\'utilisation doivent être acceptées par tout Utilisateur, et son accès au site vaut acceptation de ces conditions.', 'The present \"general conditions of use\" are intended to provide a legal framework for the use of the B3D website and its services. <br>\r\nThis contract is concluded between: <br>\r\nThe manager of the website, hereinafter referred to as \"the Publisher\", <br>\r\nAny natural or legal person wishing to access the site and its services, hereinafter referred to as \"the User\".\r\n<br>\r\nThe general conditions of use must be accepted by any User, and his access to the site constitutes acceptance of these conditions.', 'Las presentes \"condiciones generales de uso\" están destinadas a proporcionar un marco legal para el uso del sitio web de B3D y sus servicios. <br>\r\nEste contrato se concluye entre: <br>\r\nEl administrador del sitio web, en lo sucesivo denominado \"el Editor\", <br>\r\nCualquier persona física o jurídica que desee acceder al sitio y sus servicios, en lo sucesivo denominado \"el Usuario\".\r\n<br>\r\nLas condiciones generales de uso deben ser aceptadas por cualquier usuario, y su acceso al sitio constituye la aceptación de estas condiciones.', 'Die vorliegenden \"Allgemeinen Nutzungsbedingungen\" sollen einen rechtlichen Rahmen für die Nutzung der B3D-Website und ihrer Dienste bieten. <br>\r\nDieser Vertrag wird geschlossen zwischen: <br>\r\nDer Betreiber der Website, im Folgenden \"Herausgeber\" genannt, <br>\r\nJede natürliche oder juristische Person, die auf die Website und ihre Dienste zugreifen möchte, im Folgenden als \"Benutzer\" bezeichnet.\r\n<br>\r\nDie allgemeinen Nutzungsbedingungen müssen von jedem Benutzer akzeptiert werden, und sein Zugriff auf die Website stellt die Annahme dieser Bedingungen dar.', 13),
+(10, 'Pour les personnes morales :<br><br>\r\n			Le site B3D est édité par la société B3D, SARL à associé unique au capital de 10 000 €, dont le siège social est situé à \"L\'intendant\" 47700 Poussignac.<br>\r\n			La société est représentée par Mr Procedes Julien, Marc.<br><br>\r\n			Pour les personnes physiques : <br><br>\r\n			Le site B3D est édité par la société B3D, SARL à associé unique au capital de 10 000 €, dont le siège social est situé à \"L\'intendant\" 47700 Poussignac.<br>\r\n			La société est représentée par Mr Procedes Julien, Marc.<br><br>', '\r\nFor legal persons: <br> <br>\r\nThe B3D website is published by the company B3D, SARL with a sole shareholder capital of € 10,000, whose head office is located at \"L\'intendant\" 47700 Poussignac.\r\nThe company is represented by Mr Procedes Julien, Marc.\r\nFor natural persons: <br> <br>\r\nThe B3D website is published by the company B3D, SARL with a sole shareholder capital of € 10,000, whose head office is located at \"L\'intendant\" 47700 Poussignac.\r\nThe company is represented by Mr Procedes Julien, Marc.', 'Para personas jurídicas: <br> <br>\r\nEl sitio web de B3D es publicado por la compañía B3D, SARL, con un capital accionario único de € 10,000, cuya oficina central está ubicada en \"L\'intendant\" 47700 Poussignac.\r\nLa empresa está representada por el Sr. Procedes Julien, Marc.\r\nPara personas físicas: <br> <br>\r\nEl sitio web de B3D es publicado por la compañía B3D, SARL, con un capital accionario único de € 10,000, cuya oficina central está ubicada en \"L\'intendant\" 47700 Poussignac.\r\nLa empresa está representada por el Sr. Procedes Julien, Marc.', '\r\nFür juristische Personen: <br> <br>\r\nDie B3D-Website wird von der Firma B3D, SARL mit einem alleinigen Gesellschafter-Kapital von 10.000 € veröffentlicht. Der Hauptsitz befindet sich in \"L\'intendant\" 47700 Poussignac.\r\nDas Unternehmen wird von Herrn Procedes Julien, Marc vertreten.\r\nFür natürliche Personen: <br> <br>\r\nDie B3D-Website wird von der Firma B3D, SARL mit einem alleinigen Gesellschafter-Kapital von 10.000 € veröffentlicht. Der Hauptsitz befindet sich in \"L\'intendant\" 47700 Poussignac.\r\nDas Unternehmen wird von Herrn Procedes Julien, Marc vertreten.', 14),
+(11, 'Tout Utilisateur ayant accès a internet peut accéder gratuitement et depuis n’importe où au site. Les frais supportés par l’Utilisateur pour y accéder (connexion internet, matériel informatique, etc.) ne sont pas à la charge de l’Éditeur.<br>Le site et ses différents services peuvent être interrompus ou suspendus par l’Éditeur, notamment à l’occasion d’une maintenance, sans obligation de préavis ou de justification.', 'Any user having access to the internet can access free of charge from anywhere on the site. The costs incurred by the User to access it (internet connection, computer equipment, etc.) are not the responsibility of the Publisher. <br> The site and its various services may be interrupted or suspended by the Publisher, in particular during a maintenance, without obligation of advance notice or justification.', 'Cualquier usuario que tenga acceso a Internet puede acceder de forma gratuita desde cualquier lugar del sitio. Los costos incurridos por el Usuario para acceder a él (conexión a Internet, equipo informático, etc.) no son responsabilidad del Editor. El Sitio y sus diversos servicios pueden ser interrumpidos o suspendidos por el Editor, En particular durante un mantenimiento, sin obligación de previo aviso o justificación.', 'Jeder Benutzer, der Zugang zum Internet hat, kann von überall auf der Website kostenlos zugreifen. Die Kosten, die dem Benutzer für den Zugriff entstehen (Internetverbindung, Computerausrüstung usw.), fallen nicht in den Verantwortungsbereich des Publishers. <br> Die Website und ihre verschiedenen Dienste können vom Publisher unterbrochen oder ausgesetzt werden. insbesondere während einer Wartung, ohne vorherige Ankündigung oder Begründung.', 15),
+(12, 'Tout dysfonctionnement du serveur ou du réseau ne peut engager la responsabilité de l’Éditeur.<br>\r\n            De même, la responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d\'un tiers.<br>\r\n            Le site B3D s\'engage à mettre en œuvre tous les moyens nécessaires pour garantir la sécurité et la confidentialité des données. Toutefois, il n’apporte pas une garantie de sécurité totale.<br>\r\n            L’Éditeur se réserve la faculté d’une non-garantie de la fiabilité des sources, bien que les informations diffusées su le site soient réputées fiables.', 'Any malfunction of the server or the network can not engage the responsibility of the Editor. <br>\r\n            In the same way, the responsibility of the site can not be committed in the event of force majeure or the unpredictable and insurmountable fact of a third.\r\n            The B3D website commits to implement all the necessary means to guarantee the security and confidentiality of the data. However, it does not bring a guarantee of total security. <br>\r\n            The Publisher reserves the right to not guarantee the reliability of the sources, even though the information published on the site is deemed reliable.', 'Cualquier mal funcionamiento del servidor o de la red no puede comprometer la responsabilidad del Editor. <br>\r\n            De la misma manera, la responsabilidad del sitio no puede ser comprometida en caso de fuerza mayor o el hecho impredecible e insuperable de un tercero.\r\n            El sitio web de B3D se compromete a implementar todos los medios necesarios para garantizar la seguridad y confidencialidad de los datos. Sin embargo, no ofrece una garantía de total seguridad. <br>\r\n            El Editor se reserva el derecho de no garantizar la confiabilidad de las fuentes, aunque la información publicada en el sitio se considere confiable.', '\r\nFür eine Störung des Servers oder des Netzwerks kann der Editor nicht verantwortlich gemacht werden. <br>\r\n            Ebenso kann die Verantwortung der Website nicht im Falle höherer Gewalt oder der unvorhersehbaren und unüberwindlichen Tatsache eines Dritten übernommen werden.\r\n            Die B3D-Website verpflichtet sich, alle erforderlichen Maßnahmen zu ergreifen, um die Sicherheit und Vertraulichkeit der Daten zu gewährleisten. Sie bietet jedoch keine Garantie für die absolute Sicherheit. <br>\r\n            Der Herausgeber behält sich das Recht vor, die Zuverlässigkeit der Quellen nicht zu garantieren, auch wenn die auf der Website veröffentlichten Informationen als zuverlässig gelten.', 16),
+(13, 'Les contenus du site B3D (logos, textes, éléments graphiques, vidéos, etc.) son protégés par le droit d’auteur, en vertu du Code de la propriété intellectuelle.<br>\r\n            L’Utilisateur devra obtenir l’autorisation de l’éditeur du site avant toute reproduction, copie ou publication de ces différents contenus.<br>\r\n            Ces derniers peuvent être utilisés par les utilisateurs à des fins privées ; tout usage commercial est interdit.<br>', 'The contents of the B3D website (logos, text, graphic elements, videos, etc.) are protected by copyright under the Intellectual Property Code. <br>\r\n            The User must obtain the permission of the publisher of the site before any reproduction, copy or publication of these various contents. <br>\r\n            These can be used by users for private purposes; any commercial use is prohibited. <br>', 'Los contenidos del sitio web de B3D (logotipos, texto, elementos gráficos, videos, etc.) están protegidos por derechos de autor bajo el Código de Propiedad Intelectual.\r\n            El Usuario debe obtener el permiso del editor del sitio antes de cualquier reproducción, copia o publicación de estos diversos contenidos. <br>\r\n            Estos pueden ser utilizados por los usuarios para fines privados; Queda prohibido cualquier uso comercial. <br>', 'Die Inhalte der B3D-Website (Logos, Texte, grafische Elemente, Videos usw.) sind gemäß dem Intellectual Property Code urheberrechtlich geschützt. <br>\r\n            Der Benutzer muss vor der Vervielfältigung, Kopie oder Veröffentlichung dieser verschiedenen Inhalte die Genehmigung des Herausgebers der Website einholen. <br>\r\n            Diese können von Benutzern für private Zwecke verwendet werden. Jegliche kommerzielle Nutzung ist untersagt. <br>', 17);
 
 -- --------------------------------------------------------
 
@@ -109,6 +117,7 @@ INSERT INTO `b3d_generaltexte` (`ID`, `Francais`, `Anglais`, `Espagnol`, `Allema
 -- Structure de la table `b3d_header`
 --
 
+DROP TABLE IF EXISTS `b3d_header`;
 CREATE TABLE `b3d_header` (
   `ID` smallint(6) NOT NULL,
   `Francais` text NOT NULL,
@@ -137,6 +146,7 @@ INSERT INTO `b3d_header` (`ID`, `Francais`, `Anglais`, `Espagnol`, `Allemand`) V
 -- Structure de la table `b3d_titres`
 --
 
+DROP TABLE IF EXISTS `b3d_titres`;
 CREATE TABLE `b3d_titres` (
   `ID` smallint(6) NOT NULL,
   `Francais` text NOT NULL,
@@ -160,7 +170,14 @@ INSERT INTO `b3d_titres` (`ID`, `Francais`, `Anglais`, `Espagnol`, `Allemand`) V
 (8, 'Châtaigner', 'Chestnut\r\n', 'Castaña\r\n', 'Kastanie'),
 (9, 'Bois de feu', 'Firewood', 'Leña', 'Brennholz'),
 (10, 'Chapitre sur l\'environnement', 'Chapter on the environment', 'Capítulo sobre el medio ambiente.', 'Kapitel über die Umwelt'),
-(11, 'Pin', 'Pine', 'Pino', 'Kiefer');
+(11, 'Pin', 'Pine', 'Pino', 'Kiefer'),
+(12, 'Conditions générales d\'utilisation du site B3D', 'General conditions of use of the B3D website', 'Condiciones generales de uso del sitio web de B3D.', 'Allgemeine Nutzungsbedingungen der B3D-Website'),
+(13, 'ARTICLE 1 : Objet      ', 'ARTICLE 1: Object\r\n', 'ARTÍCULO 1: Propósito\r\n', 'ARTIKEL 1: Zweck\r\n'),
+(14, 'ARTICLE 2 : Mentions légales      ', 'ARTICLE 2: Legal notice', 'ARTÍCULO 2: Aviso legal.', 'ARTIKEL 2: Rechtliche Hinweise'),
+(15, 'ARTICLE 3 : accès aux services      ', 'ARTICLE 3: Access to services', 'ARTÍCULO 3: Acceso a servicios.', 'ARTIKEL 3: Zugang zu Dienstleistungen'),
+(16, 'ARTICLE 4 : Responsabilité de l\'Éditeur', 'ARTICLE 4: Responsibility of the Publisher', 'ARTÍCULO 4: Responsabilidad de la Editorial', 'ARTIKEL 4: Verantwortung des Herausgebers'),
+(17, 'ARTICLE 5 : Propriété intellectuelle', 'ARTICLE 5: Intellectual Property', 'ARTÍCULO 5: Propiedad intelectual.', 'ARTIKEL 5: Geistiges Eigentum'),
+(18, 'ARTICLE 6 : Données personnelles', 'ARTICLE 6: Personal Data', 'ARTÍCULO 6: Datos personales', 'ARTIKEL 6: Persönliche Daten');
 
 --
 -- Index pour les tables déchargées
@@ -217,7 +234,7 @@ ALTER TABLE `b3d_footer`
 -- AUTO_INCREMENT pour la table `b3d_generaltexte`
 --
 ALTER TABLE `b3d_generaltexte`
-  MODIFY `ID` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `ID` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT pour la table `b3d_header`
@@ -229,7 +246,7 @@ ALTER TABLE `b3d_header`
 -- AUTO_INCREMENT pour la table `b3d_titres`
 --
 ALTER TABLE `b3d_titres`
-  MODIFY `ID` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `ID` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- Contraintes pour les tables déchargées
