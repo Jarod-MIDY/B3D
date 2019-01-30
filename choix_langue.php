@@ -2,7 +2,7 @@
 <div id="choix-langue" class="container-fluid p-5 justify-content-center align-items-center">
 	<div class="">
 		<div class="logo">
-			<img src="imgs/B3D_LogoWhite_petit.png" alt="Logo B3D" class="mx-auto d-block img-fluid">
+			<img src="imgs/logo_blanc_langue.png" alt="Logo B3D" class="mx-auto d-block img-fluid">
 		</div>
 		<form id="form-choix-langue" method="post" class="btnChoix row">
 			<button name="langue" value="Francais" type="submit" class="btn scroll-langue">FRANÇAIS</button>

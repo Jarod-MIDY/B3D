@@ -47,7 +47,7 @@ h5, h2, ul, li {
   color: #d9c894;
 }
 
-h4 {
+h4, em{
   color: #d9c894;
   text-align: center;
 }
