@@ -38,6 +38,7 @@
             <img class="mx-0 my-0 img-fluid" src="imgs/tas_piquets.jpg" alt="">
           </div>
         </div>
+        <div><?php include('tableau/tableau_environnement.php')?></div>
       </div>
     </div>
     </div>

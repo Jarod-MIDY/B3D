@@ -55,7 +55,7 @@
           L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les
           déformations de séchage.
       </p>
-      <?php include ('tableau_chataignier.php'); ?>
+      <div><?php include ('tableau_chataignier.php'); ?></div>
       <button class="btn-default" target="_blank" href="#" title="télécharger la fiche technique au format pdf, ouvre dans un nouvel onglet"><i class="fas fa-download"></i> Télécharger la fiche technique</button>
     </div>
   </div>
