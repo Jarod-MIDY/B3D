@@ -4,7 +4,7 @@ $chemin_page = $_SERVER['PHP_SELF'];
 $chemin_decoupe = explode("/", $chemin_page);
 
 
-echo('<a href="/">accueil</a> >');
+/*echo('<a href="/">accueil</a> >');*/
 for($i=1; $i<count($chemin_decoupe); $i++ ){
     echo('<a href="/');
     for($j=1; $j<=$i; $j++ ){
@@ -14,12 +14,12 @@ for($i=1; $i<count($chemin_decoupe); $i++ ){
 
     if($i==count($chemin_decoupe)-1){
         $chemin_prec = explode(".", $chemin_decoupe[$i]);
-        if ($chemin_prec[0] == $index) $chemin_prec[0] = "";
+        /*if ($chemin_prec[0] == $index) $chemin_prec[0] = "";*/
         $chemin_prec[0] = $chemin_prec[0] . "</a>";
     }
     else $chemin_prec[0]=$chemin_decoupe[$i] . '</a> > ';
     echo('">');
-    echo(str_replace("_" , " " , $chemin_prec[0]));
+    echo(str_replace("_" , " " , ucfirst($chemin_prec[0])));
 }
 
 ?>
