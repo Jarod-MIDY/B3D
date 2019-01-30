@@ -1,3 +1,7 @@
+<?php
+require 'bdd.php';
+$db = Database::connect();
+ ?>
 <!doctype>
 <html>
 
