@@ -10,12 +10,12 @@ echo '<table class="table table-bordered text-center">
 </thead>
 <tbody>
   <tr>
-    <td  rowspan="2"> Périmétres fin bout</td>
+    <td  rowspan="2"> Périmètres fin bout</td>
     <td >24/29 cm</td>
     <td  colspan="3">130</td>
   </tr>
   <tr>
-    <td>28cm ret +</td>
+    <td>28cm et +</td>
     <td colspan="3">110</td>
   </tr>
 </tbody>
