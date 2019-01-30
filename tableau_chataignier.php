@@ -1,19 +1,23 @@
 <?php
-echo '<table class="tg justify-content-center">
+echo '<table class="table table-bordered text-center">
+<thead>
   <tr>
-    <th class="tg-0lax" colspan="2">Longueurs</th>
-    <th class="tg-0lax">2 m</th>
-    <th class="tg-0lax">2 m 30</th>
-    <th class="tg-0lax">2 m 50</th>
+    <th scope="col" colspan="2">Longueurs</th>
+    <th scope="col">2 m </th>
+    <th scope="col">2 m 30</th>
+    <th scope="col">2 m 50</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td  rowspan="2"> Périmétres fin bout</td>
+    <td >24/29 cm</td>
+    <td  colspan="3">130</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"> Périmétres fin bout</td>
-    <td class="tg-0lax">24/29 cm</td>
-    <td class="tg-0lax" colspan="3">130</td>
+    <td>28cm ret +</td>
+    <td colspan="3">110</td>
   </tr>
-  <tr>
-    <td class="tg-0lax">28cm ret +</td>
-    <td class="tg-0lax" colspan="3">110</td>
-  </tr>
+</tbody>
 </table>'
  ?>
