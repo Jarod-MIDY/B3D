@@ -20,6 +20,7 @@
 
 	<script src="scripts/script-b3d.js"></script>
 	<script src="scripts/malvoyant.js"></script>
+	<script src="scripts/choix_langues.js"></script>
 	<?php   Database::disconnect(); ?>
 </body>
 </html>

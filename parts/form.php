@@ -1,6 +1,10 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	$langue['langue'] = $_POST['langue'];
+	$_SESSION['langue'] = $langue['langue'] = test_input($_POST['langue']);
   json_encode($langue);
+}
+
+function test_input($value) {
+  return $value = htmlspecialchars(stripslashes(trim($value)));
 }
  ?>

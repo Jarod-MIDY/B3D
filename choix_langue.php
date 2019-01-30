@@ -1,4 +1,4 @@
-<?php include('parts/form.php') ?>
+<?php include('parts/form.php'); ?>
 <div id="choix-langue" class="container-fluid p-5 justify-content-center align-items-center">
 	<div class="">
 		<div class="logo">
@@ -15,20 +15,3 @@
 		</form>
 	</div>
 </div>
-
-<script>
-	$('#form-choix-langue').submit(function(e) {
-		e.preventDefault();
-	$.ajax({
-		type: 'POST',
-		url: 'parts/form.php',
-		data: new FormData(this),
-		dataType: 'json',
-		contentType: false,
-		processData: false,
-		success: function(data) {
-			alert(data.langue);
-		}
-	})
-});
-</script>
