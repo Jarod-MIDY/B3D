@@ -62,7 +62,8 @@ hr {
 }
 
 .cadre {
-  background-color: #7F4F2A;
+  /*background-color: #7F4F2A;*/
+  background-color: rgba(127, 79, 42, 0.8)
 }
 
 .cadreCGU {
@@ -75,6 +76,7 @@ hr {
   margin: 2em;
   padding: 1em;
   background-color: #7F4F2A;
+  /*background-color: rgba(127, 79, 42, 0.8);*/
   border-radius: 3px;
 }
 .bloc-map{
@@ -237,6 +239,11 @@ footer .link {
   height: 65vh;
 }
 
+#demo{
+  padding: 0.2em;
+}
+
+
 /*******************************/
 /* page les-produit            */
 .card {
@@ -290,6 +297,10 @@ iframe, .col-md-12 {
 
 label{
   color: #d9c894;
+}
+
+#bloc-texte{
+  background-color: rgba(127, 79, 42, 0.8); 
 }
 
 /******************************/

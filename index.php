@@ -9,7 +9,7 @@ $req->execute([$langue]);
 
 <section  id="container-slider" class="container">
   <div class="mb-5" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
-  <div id="demo" class="carousel slide" data-ride="carousel">
+  <div id="demo" class="carousel slide bloc-texte" data-ride="carousel">
     <!-- le slider -->
     <div class="carousel-inner">
       <?php
@@ -34,7 +34,7 @@ $req->execute([$langue]);
   </div>
 </section>
 <section id="container-accueil" class="">
-  <div class="container m-5 ">
+  <div class="container m-5">
     <div class="row justify-content-start">
     <div class="col-lg-9 col-sm-12 col-md-12 bloc-texte">
       <div class="row justify-content-center bloc-texte cadre">
