@@ -6,7 +6,7 @@
 
 	<section class="row cadreCGU"><br>
 	<h5 class="w-100">ARTICLE 1 : Objet      <hr></h5><br>
-	<p>Les présentes « conditions générales d'utilisation » ont pour objet l'encadreCGUment juridique de l’utilisation du site B3D et de ses services.<br>
+	<p>Les présentes « conditions générales d'utilisation » ont pour objet l'encadrement juridique de l’utilisation du site B3D et de ses services.<br>
 		Ce contrat est conclu entre :<br>
 		Le gérant du site internet, ci-après désigné « l’Éditeur »,<br>
 		Toute personne physique ou morale souhaitant accéder au site et à ses services, ci-après appelé « l’Utilisateur ».
@@ -24,8 +24,7 @@
 	</section>
     <section class="row cadreCGU"><br>
         <h5 class="w-100">ARTICLE 3 : accès aux services      <hr></h5><br>
-            <p>Tout Utilisateur ayant accès a internet peut accéder gratuitement et depuis n’importe où au site. Les frais supportés par l’Utilisateur pour y accéder (connexion internet, matériel informatique, etc.) ne sont pas à la charge de l’Éditeur.<br>
-            <p>Le site et ses différents services peuvent être interrompus ou suspendus par l’Éditeur, notamment à l’occasion d’une maintenance, sans obligation de préavis ou de justification.</p>
+            <p>Tout Utilisateur ayant accès a internet peut accéder gratuitement et depuis n’importe où au site. Les frais supportés par l’Utilisateur pour y accéder (connexion internet, matériel informatique, etc.) ne sont pas à la charge de l’Éditeur.<br>Le site et ses différents services peuvent être interrompus ou suspendus par l’Éditeur, notamment à l’occasion d’une maintenance, sans obligation de préavis ou de justification.</p>
     </section>
 
     <section class="row cadreCGU"><br>
@@ -39,7 +38,7 @@
             <h5 class="w-100">ARTICLE 5 : Propriété intellectuelle      <hr></h5><br>
             <p>Les contenus du site B3D (logos, textes, éléments graphiques, vidéos, etc.) son protégés par le droit d’auteur, en vertu du Code de la propriété intellectuelle.<br>
             L’Utilisateur devra obtenir l’autorisation de l’éditeur du site avant toute reproduction, copie ou publication de ces différents contenus.<br>
-            Ces derniers peuvent être utilisés par les utilisateurs à des fins privées ; tout usage commercial est interdit.<br>
+            Ces derniers peuvent être utilisés par les utilisateurs à des fins privées ; tout usage commercial est interdit.<br></p>
     </section>
     <section class="row cadreCGU"><br>
             <h5 class="w-100">ARTICLE 6 : Données personnelles      <hr></h5><br>
@@ -56,7 +55,7 @@
             <ul>
                 <li>Un formulaire de contact</li>
                 <li>Par voie postale à l'adresse :<br>B3D<br>    "L'intendant",<br>47700 Poussignac.</li>
-            </ul>
+            </ul></p>
     </section>
     <section class="row cadreCGU"><br>
             <h5 class="w-100">ARTICLE 7 : Liens hypertextes      <hr></h5><br>
