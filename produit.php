@@ -4,8 +4,7 @@
   <div class="mb-5" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
   <h4 class="display-3 text-center">Piquets en châtaignier</h4>
   <p class="text-center sous-titre"><em>Issus de forêts locales, nos piquets en châtaigniers sont naturellement durable et utilisés en agriculture depuis la nuit des temps.</em> </p>
-  <div class="row justify-content-end">
-    <div class="col-lg-1"></div>
+  <div class="row justify-content-center">
     <div class="col-lg-11 col-sm-12 col-md-12">
       <div class="row ">
         <div class="col-lg-8 col-sm-12 col-md-8 p-0">
