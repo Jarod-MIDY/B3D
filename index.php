@@ -2,9 +2,8 @@
 include('parts/head.php');
 include('choix_langue.php');
 include('parts/header.php');
-$langue = $_SESSION['langue'];
 $req = $db->prepare('SELECT ?, image FROM b3d_altimages LIMIT 8');
-$req->execute([$langue]);
+$req->execute(['Francais']);
  ?>
 
 <section  id="container-slider" class="container">
@@ -21,7 +20,7 @@ $req->execute([$langue]);
         $a = false;
         }
         echo '">
-          <img src="imgs/slider_accueil/'.$data['image'].'" alt="'.$data["$langue"].'">
+          <img src="imgs/slider_accueil/'.$data['image'].'" alt="'.$data['Francais'].'">
         </div>';
       }
        ?>

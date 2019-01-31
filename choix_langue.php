@@ -1,4 +1,4 @@
-<?php include('parts/form.php'); ?>
+<?php //include('parts/form.php'); ?>
 <div id="choix-langue" class="container-fluid p-5 justify-content-center align-items-center">
 	<div class="">
 		<div class="logo">

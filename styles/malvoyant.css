@@ -1,4 +1,11 @@
 body {
-  background-color: yellow;
+  background-color: black;
   background-image: none;
+}
+.bloc-texte {
+  background-color: white;
+}
+p {
+  color: black;
+  font-size: 1.5rem;
 }
