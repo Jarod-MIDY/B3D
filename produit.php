@@ -5,7 +5,7 @@
   <h4 class="display-3 text-center">Piquets en châtaignier</h4>
   <p class="text-center sous-titre"><em>Issus de forêts locales, nos piquets en châtaigniers sont naturellement durable et utilisés en agriculture depuis la nuit des temps.</em> </p>
   <div class="row justify-content-center">
-    <div class="col-lg-11 col-sm-12 col-md-12">
+    <div class="col-lg-12 col-sm-12 col-md-12">
       <div class="row ">
         <div class="col-lg-8 col-sm-12 col-md-8 p-0">
           <div class="cadre bloc-texte">
@@ -20,7 +20,7 @@
           </div> -->
         </div>
         <div class="col-lg-4 col-sm-12 col-md-4 d-flex align-items-center">
-          <img class=" img-fluid" src="imgs/produit_01.jpg" alt="card image">
+          <img class="img-fluid" src="imgs/produit_01.jpg" alt="card image">
         </div>
       </div>
       <div class="row">
@@ -28,20 +28,14 @@
           <h5 class="display-5"> Les usages</h5>
           <p>Le chataignier est depuis longtemps exploité pour ses châtaignes, consommée par l'homme ou les cochons menés en pâturage dans la forêt qui est une pratique encore effective en Corse ou Espagne par exemple.
           Il est utilisé pour la charpente, le parquet... Le bois dur était utilisé autrefois dans la tonnellerie (fabrique de barrique de vins). Il donne un chauffage moyen.
-          Bois idéal pour les piquets de clotures ou de vignes, il se préte à de nombreux usages en agriculture (barriéres, parc de tri, aménagement divers en exterieur...).
+          Bois idéal pour les piquets de clôtures ou de vignes, il se prête à de nombreux usages en agriculture (barrières, parc de tri, aménagement divers en extérieur...).
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-12 col-md-4">
-          <img class=" img-fluid" src="imgs/produit_02.jpg" alt="card image">
-        </div>
-        <div class="col-lg-4 col-sm-12 col-md-4 d-flex align-items-center">
-          <img class=" img-fluid" src="imgs/produit_03.jpg" alt="card image">
-        </div>
-        <div class="col-lg-4 col-sm-12 col-md-4">
-          <img class=" img-fluid" src="imgs/produit_04.jpg" alt="card image">
-        </div>
+      <div class="row justify-content-center">
+          <div class="div-img-produits"><img class="img-fluid col-lg-4 col-sm-12 col-md-4" src="imgs/produit_02.jpg" id="img-produits" alt="card image"></div>
+          <div class="div-img-produits"><img class="img-fluid col-lg-4 col-sm-12 col-md-4 d-flex align-items-center" src="imgs/produit_03.jpg" id="img-produits" alt="card image"></div>
+          <div class="div-img-produits"><img class="img-fluid col-lg-4 col-sm-12 col-md-4" src="imgs/produit_04.jpg" id="img-produits" alt="card image"></div>
       </div>
     </div>
   </div>
