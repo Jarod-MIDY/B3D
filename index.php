@@ -3,7 +3,9 @@ include('parts/head.php');
 include('choix_langue.php');
 include('parts/header.php');
 $req = $db->prepare('SELECT ?, image FROM b3d_altimages LIMIT 8');
-$req->execute(['Francais']);
+$req->execute([$_SESSION['langue']]);
+var_dump($_SESSION);
+var_dump($_POST);
  ?>
 
 <section  id="container-slider" class="container">
@@ -20,10 +22,34 @@ $req->execute(['Francais']);
         $a = false;
         }
         echo '">
-          <img src="imgs/slider_accueil/'.$data['image'].'" alt="'.$data['Francais'].'">
+          <img src="imgs/slider_accueil/'.$data['image'].'" alt="'.$data[$_SESSION["langue"]].'">
         </div>';
       }
        ?>
+             <!-- <div class="carousel-item active">
+         <img src="imgs/slider_accueil/tasBois1.jpg" alt="Un tas de bois">
+       </div>
+       <div class="carousel-item">
+         <img src="imgs/slider_accueil/Acacia1.jpg" alt="Bois d'acacia coupé">
+       </div>
+       <div class="carousel-item">
+         <img src="imgs/slider_accueil/julienR.jpg" alt="Monsieur Procedes">
+       </div>
+       <div class="carousel-item">
+         <img src="imgs/slider_accueil/Acacia3.jpg" alt="Bois d'acacia coupé">
+       </div>
+       <div class="carousel-item">
+         <img src="imgs/slider_accueil/Acacia7.jpg" alt="Bois d'acacia coupé">
+       </div>
+       <div class="carousel-item">
+         <img src="imgs/slider_accueil/P1050506.jpg" alt="Piquets d'acacia">
+       </div>
+       <div class="carousel-item">
+         <img src="imgs/slider_accueil/Acacia9.jpg" alt="Bois d'acacia coupé">
+       </div>
+       <div class="carousel-item">
+         <img src="imgs/slider_accueil/Chataigner2.jpg" alt="Bois de chataigner coupé">
+       </div> -->
     </div>
     <!-- controle du slider -->
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -51,7 +77,7 @@ $req->execute(['Francais']);
         </div>
       </div>
     </div>
-  </div> 
+  </div>
   <div class="container">
     <div class="row justify-content-end">
     <div class="col-lg-9 col-sm-12 col-md-12">
