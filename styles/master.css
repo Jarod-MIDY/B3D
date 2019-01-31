@@ -160,9 +160,10 @@ footer .link {
 
 /*****bloc contactez-nous*******/
 #contactNous {
+  border: 3px solid #7F4F2A;
   background-color: #7F4F2A;
   /*background-color: rgba(127, 79, 42, 0.8);*/ 
-  padding: 1em;
+  /*padding: 1em;*/
   margin-top: 2em;
 }
 
