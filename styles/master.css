@@ -160,8 +160,10 @@ footer .link {
 
 /*****bloc contactez-nous*******/
 #contactNous {
+  border: 3px solid #7F4F2A;
   background-color: #7F4F2A;
-  padding: 1em;
+  /*background-color: rgba(127, 79, 42, 0.8);*/ 
+  /*padding: 1em;*/
   margin-top: 2em;
 }
 
@@ -256,6 +258,22 @@ footer .link {
 #produit .row {
   margin: 1em 0;
 }
+/*#produits, .img-fluid{
+  border: 2px solid rgba(127, 79, 42, 0.9);
+}*/
+#img-produits{
+  max-width: 292px;
+  max-height: 258px;
+  padding: 0px;
+  border: 2px solid rgba(127, 79, 42, 0.9);
+}
+.div-img-produits{
+  background-color: rgba(127, 79, 42, 0.9);
+  max-width: 292px;
+  max-height: 258px;
+  margin: 15px;
+}
+
 
 /*******************************/
 /*       page entreprise     */
