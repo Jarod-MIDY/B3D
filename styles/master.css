@@ -257,13 +257,14 @@ footer .link {
 #produit .row {
   margin: 1em 0;
 }
-#produits, .img-fluid{
+/*#produits, .img-fluid{
   border: 2px solid rgba(127, 79, 42, 0.9);
-}
+}*/
 #img-produits{
   max-width: 292px;
   max-height: 258px;
-  padding: 1px;
+  padding: 0px;
+  border: 2px solid rgba(127, 79, 42, 0.9);
 }
 .div-img-produits{
   background-color: rgba(127, 79, 42, 0.9);

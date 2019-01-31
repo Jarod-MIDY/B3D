@@ -20,7 +20,7 @@
           </div> -->
         </div>
         <div class="col-lg-4 col-sm-12 col-md-4 d-flex align-items-center">
-          <img class="img-fluid" src="imgs/produit_01.jpg" alt="card image">
+          <img class="img-fluid" src="imgs/produit_01.jpg" id="img-produits" alt="card image">
         </div>
       </div>
       <div class="row">
