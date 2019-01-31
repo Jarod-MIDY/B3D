@@ -39,12 +39,28 @@
             <img class="mx-0 my-0 img-fluid" src="imgs/societe_02b.jpg" alt="">
           </div>
         </div>
+
+      </div>
+    </div>
+    </div>
+
+    <div class="row justify-content-start">
+
+      <div class="col-lg-9  col-md-12 col-sm-12  ">
+        <div class="row justify-content-center bloc-texte cadre">
+
+
+          <div class="row justify-content-center ">
+            <div class="col-lg-7 col-md-6 col-sm-12  align-items-center">
               <div><?php include('tableau/tableau_environnement.php')?></div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
     
     
+    <div class="row justify-content-end">
 
       <div class="col-lg-9  col-md-12 col-sm-12  ">
         <div class="row justify-content-center bloc-texte cadre">
