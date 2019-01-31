@@ -1,11 +1,11 @@
 <?php
 include('parts/head.php');
+include('parts/form.php');
 include('choix_langue.php');
 include('parts/header.php');
 $req = $db->prepare('SELECT ?, image FROM b3d_altimages LIMIT 8');
 $req->execute([$_SESSION['langue']]);
-var_dump($_SESSION);
-var_dump($_POST);
+var_dump($_SESSION['langue']);
  ?>
 
 <section  id="container-slider" class="container">
