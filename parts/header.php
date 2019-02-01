@@ -11,7 +11,7 @@
 					<!-- menu --->
 					<ul class="nav ">
 						<li class="nav-item  sliding-middle-out"><a id="accueil" class="nav-link" href="index.php#header">Accueil</a></li>
-						<li class="nav-item sliding-middle-out"><a id="entreprise" class="nav-link" href="societe.php">L'entreprise</a></li>
+						<li class="nav-item sliding-middle-out"><a id="entreprise" class="nav-link" href="entreprise.php">L'entreprise</a></li>
 						<li class="nav-item dropdown sliding-middle-out">
 							<a class="nav-link dropdown-toggle" href="les-produits.html" id="navbardrop" role="button" data-toggle="dropdown" data-hover="">Nos Produits</a>
 							<div class="dropdown-menu">
@@ -51,7 +51,7 @@
 				<ul>
 					<li><a id="accueil" class="sliding-middle-out" href="index.php">Accueil</a></li>
 					<li><a id="nosProduits" class="sliding-middle-out" href="les-produits.php">Nos produits</a></li>
-					<li><a id="entreprise" class="sliding-middle-out" href="societe.php">L'entreprise</a></li>
+					<li><a id="entreprise" class="sliding-middle-out" href="entreprise.php">L'entreprise</a></li>
 					<li><a id="contact" class="sliding-middle-out" href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
