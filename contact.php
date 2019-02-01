@@ -60,7 +60,7 @@
 
     <div class="form-row">
 		<div class="form-group col-md-12">
-	        <label class="chprequired" for="oui">Veuillez accepter notre <a href="#">politique de confidentialité.</a></label>
+	        <label class="chprequired" for="oui">Veuillez accepter nos <a href="conditionsgenerales.php">mentions légales.</a></label>
 	        <input type="checkbox" name="mentionsLegales" value="mentionsLegales" id="mentionsLegales" required><br>
 	    </div>
 	</div>
