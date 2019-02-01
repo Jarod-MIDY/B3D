@@ -1,4 +1,8 @@
-<div id="choix-langue" class="container-fluid p-5 justify-content-center align-items-center">
+<?php if (isset($_SESSION['Lset'])): ?>
+	<div id="choix-langue" class="d-none container-fluid p-5 justify-content-center align-items-center">
+<?php else: ?>
+	<div id="choix-langue" class="container-fluid p-5 justify-content-center align-items-center">
+<?php endif; ?>
 	<div class="">
 		<div class="logo">
 			<img src="imgs/logo_blanc_langue.png" alt="Logo B3D" class="mx-auto d-block img-fluid">
@@ -31,7 +35,12 @@ $(function() {
       url: 'parts/form.php',
       data: postdata,
       dataType: 'json',
-      success: function() {
+      success: function(data) {
+				if (data) {
+					setTimeout(function () {
+						window.location.href = './index.php';
+					}, 400);
+        }
       },
       error: function(xhr, textStatus, errorThrown) {
         alert('error : ' + xhr.responseText + ' ' + textStatus + ' ' + errorThrown);
@@ -39,14 +48,4 @@ $(function() {
     })
   });
 })
-//scroll du choix de langue
-$(".scroll-langue").click(function() {
-  $('#choix-langue').animate({
-    'height': '-=100%',
-  }, 400);
-  setTimeout(function() {
-    $('#choix-langue').hide();
-  }, 300)
-});
-
 </script>

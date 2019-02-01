@@ -37,7 +37,7 @@
 							<a id="eye" class="social-icon text-xs-center"><i class="far fa-eye fa-2x" style="color: #ffffff"></i></a>
 						</li>
 						<li class="list-inline-item">
-							<a class="social-icon text-xs-center"  href="#choix-langue"><i class="fas fa-globe fa-2x" style="color: #ffffff"></i></a>
+							<a id="globe-langue" class="social-icon text-xs-center"  href="#choix-langue"><i class="fas fa-globe fa-2x" style="color: #ffffff"></i></a>
 						</li>
 					</ul>
 				</div>

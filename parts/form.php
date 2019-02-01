@@ -2,9 +2,8 @@
 // choix de langue
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['langue'])) {
   session_start();
+  $_SESSION['Lset'] = true;
   $_SESSION['langue'] = $_POST['langue'];
-
-  // $array['langue'] = $_SESSION['langue'];
   echo json_encode($_SESSION);
 }
 // Langue de base du site
