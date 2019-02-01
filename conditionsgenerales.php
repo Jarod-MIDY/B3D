@@ -3,7 +3,7 @@
 
 <section class="container w-75">
 	<br><br>
-	<h1>Conditions générales d'utilisation du site B3D</h1><br>
+	<h2 class="text-center display-4">Conditions générales d'utilisation du site B3D</h2><br>
 
 	<section class="row cadreCGU"><br>
 	<h5 class="w-100">ARTICLE 1 : Objet      <hr></h5><br>
