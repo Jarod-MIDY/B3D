@@ -20,3 +20,19 @@ $(".scroll-langue").click(function() {
     $('#choix-langue').hide();
   }, 300)
 });
+// retour au choix de langue
+$('#globe-langue').click(function() {
+  $('#choix-langue').removeClass('d-none');
+  window.location.href = './parts/gestion_session.php';
+});
+// CSS malvoyant
+var bool = true;
+	$('#eye').click(function() {
+		if (bool) {
+			$('head').append('<link id="malvoyant" rel="stylesheet" href="styles/malvoyant.css">');
+			bool = false;
+		} else {
+			$('#malvoyant').remove();
+			bool = true;
+		}
+	})
