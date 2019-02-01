@@ -50,16 +50,16 @@
         <div class="row justify-content-center bloc-texte cadre">
 
 
-          <div class="row justify-content-center ">
-            <div class="col-lg-7 col-md-6 col-sm-12  align-items-center">
-              <div><?php include('tableau/tableau_environnement.php')?></div>
+          <div class="row justify-content-center mx-3">
+            <div class="col-md-12  align-items-center">
+              <div class=""><?php include('tableau/tableau_environnement.php')?></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    
+
+
     <div class="row justify-content-end">
 
       <div class="col-lg-9  col-md-12 col-sm-12  ">

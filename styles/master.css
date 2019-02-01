@@ -162,7 +162,7 @@ footer .link {
 #contactNous {
   border: 3px solid #7F4F2A;
   background-color: #7F4F2A;
-  /*background-color: rgba(127, 79, 42, 0.8);*/ 
+  /*background-color: rgba(127, 79, 42, 0.8);*/
   /*padding: 1em;*/
   margin-top: 2em;
 }
@@ -273,7 +273,16 @@ footer .link {
   max-height: 258px;
   margin: 15px;
 }
+/*******************************/
+/*        Les tableaux         */
 
+.table, tr, td, th {
+  color: #d9c894;
+  text-align: center;
+  border-color: #d9c894;
+  border: 1px solid #d9c894;
+  padding: 1em 0;
+}
 
 /*******************************/
 /*       page entreprise     */
@@ -312,7 +321,7 @@ label{
 }
 
 #bloc-texte{
-  background-color: rgba(127, 79, 42, 0.8); 
+  background-color: rgba(127, 79, 42, 0.8);
 }
 
 /******************************/
