@@ -4,7 +4,7 @@ $chemin_page = $_SERVER['PHP_SELF'];
 $chemin_decoupe = explode("/", $chemin_page);
 
 
-/*echo('<a href="/">accueil</a> >');*/
+echo 'Vous êtes ici : ';
 for($i=1; $i<count($chemin_decoupe); $i++ ){
     echo('<a href="/');
     for($j=1; $j<=$i; $j++ ){

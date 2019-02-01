@@ -8,7 +8,7 @@ $req->execute();
  ?>
 
 <section  id="container-slider" class="container">
-  <div class="mb-1" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
+  <div class="mb-1" id="fil_ariane"><?php include_once 'parts/ariane.php';?></div>
   <div id="demo" class="carousel slide bloc-texte" data-ride="carousel">
     <!-- le slider -->
     <div class="carousel-inner">
@@ -33,6 +33,7 @@ $req->execute();
     <span class="carousel-control-next-icon"></span></a>
   </div>
 </section>
+<!-- y'a suremment moyen de réduire ça et faire une boucle pour tout afficher -->
 <section id="container-accueil" class="">
   <div class="container">
     <div class="row justify-content-start">
@@ -40,7 +41,12 @@ $req->execute();
         <div class="row justify-content-center bloc-texte">
           <div class="row justify-content-center">
               <div class="col-lg-5 col-md-4 col-sm-10 d-flex align-items-center">
-                <img class="img-fluid" src="imgs/accueil_01.jpg" alt="Tas de piquets en bois d'acacia" >
+                <?php
+                $req = $db->prepare('SELECT '.$_SESSION['langue'].', image FROM dwb3d1_altimages WHERE id=9');
+                $req->execute();
+                $data = $req->fetch();
+                 echo '<img class="img-fluid" src="imgs/'.$data['image'].'" alt="'.$data[$_SESSION["langue"]].'">'
+                 ?>
               </div>
             <div class="col-lg-7 col-md-6 col-sm-12">
               <?php
@@ -69,7 +75,12 @@ $req->execute();
              ?>
           </div>
             <div class="col-lg-5 col-md-4 col-sm-10 d-flex align-items-center">
-              <img class="img-fluid" src="imgs/accueil_02.jpg" alt="Tas de piquets en bois d'acacia" >
+              <?php
+              $req = $db->prepare('SELECT '.$_SESSION['langue'].', image FROM dwb3d1_altimages WHERE id=10');
+              $req->execute();
+              $data = $req->fetch();
+               echo '<img class="img-fluid" src="imgs/'.$data['image'].'" alt="'.$data[$_SESSION["langue"]].'">'
+               ?>
             </div>
          </div>
         </div>

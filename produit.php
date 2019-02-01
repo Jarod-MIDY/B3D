@@ -1,7 +1,7 @@
 <?php include('parts/head.php'); ?>
 <?php include('parts/header.php'); ?>
 <section id="produit" class="container">
-  <div class="mb-5" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
+  <div class="mb-5" id="fil_ariane"><?php include_once 'parts/ariane.php';?></div>
   <h4 class="display-3 text-center">Piquets en châtaignier</h4>
   <p class="text-center sous-titre"><em>Issus de forêts locales, nos piquets en châtaigniers sont naturellement durable et utilisés en agriculture depuis la nuit des temps.</em> </p>
   <div class="row justify-content-center">

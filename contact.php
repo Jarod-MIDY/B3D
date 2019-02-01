@@ -1,9 +1,9 @@
 <?php include('parts/head.php'); ?>
 <?php include('parts/header.php'); ?>
-<?php include('resultat_form.php'); ?>
+<?php include('parts/resultat_form.php'); ?>
 
 <section id="formulaire-contact" class="container">
-<div class="mb-5" id="fil_ariane">Vous êtes ici : <?php include_once 'parts/ariane.php';?></div>
+<div class="mb-5" id="fil_ariane"><?php include_once 'parts/ariane.php';?></div>
 <div class="bloc-texte form-contact" id="bloc-texte">
 	<h4 class="display-4 text-center">CONTACTEZ-NOUS<hr></h4>
 
