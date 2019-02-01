@@ -46,7 +46,7 @@
 
     <div class="row justify-content-start">
 
-      <div class="col-lg-9  col-md-12 col-sm-12  ">
+      <div class="col-lg-10  col-md-12 col-sm-12  ">
         <div class="row justify-content-center bloc-texte cadre">
 
 

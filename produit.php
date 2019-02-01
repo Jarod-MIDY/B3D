@@ -40,8 +40,8 @@
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-12 cadre bloc-texte text-center p-1">
-      <h5 class="display-5 ">Fiche technique</h5>
+    <div class="col-10 cadre bloc-texte text-center">
+      <h5 class="display-5">Fiche technique</h5>
       <p> L’ensemble de nos produits châtaigner sont écorcés pour apporter plus d’esthétique et de propreté
           aux piquets mais surtout pour éviter de transporter des parasites sur le site de la clientèle.<br>
           Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5
@@ -49,7 +49,7 @@
           L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les
           déformations de séchage.
       </p>
-      <div><?php include ('tableau_chataignier.php'); ?></div>
+      <div  class""><?php include ('tableau_chataignier.php'); ?></div>
       <button class="btn-default" target="_blank" href="#" title="télécharger la fiche technique au format pdf, ouvre dans un nouvel onglet"><i class="fas fa-download"></i> Télécharger la fiche technique</button>
     </div>
   </div>
