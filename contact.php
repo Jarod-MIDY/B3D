@@ -59,7 +59,7 @@
 
     <div class="form-row">
 		<div class="form-group col-md-12">
-	        <label class="chprequired" for="oui">Veuillez accepter nos <a href="mentionslegales.php">mentions légales.</a></label>
+	        <label class="chprequired" for="oui">Veuillez accepter nos <a href="mentionslegales.php">conditions générales d'utilisation.</a></label>
 	        <input type="checkbox" name="mentionsLegales" value="mentionsLegales" id="mentionsLegales" required><br>
 	    </div>
 	</div>
