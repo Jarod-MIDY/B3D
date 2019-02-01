@@ -2,7 +2,6 @@
 <?php include('parts/header.php'); ?>
 
 <section class="container w-75">
-	<div class="mb-5" id="fil_ariane"><?php include_once 'parts/ariane.php';?></div>
 	<br><br>
 	<h1>Conditions générales d'utilisation du site B3D</h1><br>
 

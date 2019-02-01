@@ -57,3 +57,4 @@
 			</nav>
 		</div>
 	<!-- fin menu tel tablette vertical -->
+	<div class="mb-1" id="fil_ariane"><?php include_once 'parts/ariane.php';?></div>

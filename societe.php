@@ -2,7 +2,6 @@
 <?php include('parts/header.php'); ?>
 
 <section id="pageEntreprise" class="container">
-  <div class="mb-5" id="fil_ariane"><?php include_once 'parts/ariane.php';?></div>
   <h4 class="display-3 text-center">L'entreprise</h4>
     <div class="row justify-content-start">
 
