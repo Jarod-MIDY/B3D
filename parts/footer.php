@@ -12,7 +12,7 @@
 					<div class="">
 						<p>Copyright © <?php echo date('Y')?>-Tous droits reservés ??</p>
 					</div>
-					<p><a class="link" href="plansite.php">Plan de site</a> | <a class="link" href="conditionsgenerales.php">Mentions légales</a></p>
+					<p><a class="link" href="plansite.php">Plan de site</a> | <a class="link" href="mentionslegales.php">Mentions légales</a></p>
 			</div>
 		</div>
 	</footer>
