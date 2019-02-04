@@ -10,7 +10,7 @@
 						<p>B3D</p>
 					</div>
 					<div class="">
-						<p>Copyright © <?php echo date('Y')?>-Tous droits reservés ??</p>
+						<p>Copyright © <?php echo date('Y')?> - Tous droits reservés</p>
 					</div>
 					<p><a class="link" href="plansite.php">Plan de site</a> | <a class="link" href="mentionslegales.php">Mentions légales</a></p>
 			</div>
