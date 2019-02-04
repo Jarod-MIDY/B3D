@@ -4,8 +4,8 @@ class Database
 {
     private static $dbHost = "localhost";
     private static $dbName = "b3dbdd";
-    private static $dbUsername = "adminphp";
-    private static $dbUserpassword = "1997Ubellblatt";
+    private static $dbUsername = "root";
+    private static $dbUserpassword = "s";
 
     private static $connection = null;
 
