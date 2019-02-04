@@ -1,7 +1,7 @@
 <?php include('parts/head.php'); ?>
 <?php include('parts/header.php'); ?>
 
-<section class="container w-75">
+<section class="container container-CGU">
 	<br><br>
 	<h2 class="text-center display-4">Conditions générales d'utilisation du site B3D</h2><br>
 

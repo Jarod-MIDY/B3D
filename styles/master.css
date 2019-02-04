@@ -351,7 +351,10 @@ a:hover{
   text-decoration: underline;
   color: #d9c894;
 }
-
+/***********CGU***********/
+.container-CGU{
+  width:75%;
+}
 
 }
 /********Tablette/Petit pc**********/
@@ -426,6 +429,14 @@ a:hover{
   margin-top: 1em;
   padding-bottom: 1em;
   }
+  .cadreCGU{
+  background-color: #7F4F2A;
+  margin: 0.5vh 0.5vh;
+  width: 100%;
+  }
+  .container-CGU{
+  width:100%;
+  }
   
 }
 
@@ -480,12 +491,20 @@ a:hover{
     background-color: rgba(127, 79, 42, 0.9);
     border-radius: 3px;
   }
-  footer {
+  footer{
   background-color: #B52E1B;
   color: #d9c894;
   margin-top: 1em;
   padding-bottom: 1em;
-}
+  }
+  .cadreCGU{
+  background-color: #7F4F2A;
+  margin: 0.5vh 0.5vh;
+  width: 100%;
+  }
+  .container-CGU{
+  width:100%;
+  }
 
 }
 
