@@ -3,7 +3,7 @@ session_start();
 require 'bdd.php';
 $db = Database::connect();
  ?>
-<!doctype>
+<!DOCTYPE>
 <html>
 
 <head>
