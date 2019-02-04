@@ -3,7 +3,7 @@
 <?php else: ?>
 	<div id="choix-langue" class="container-fluid p-5 justify-content-center align-items-center">
 <?php endif; ?>
-	<div class="">
+	<div>
 		<div class="logo">
 			<img src="imgs/logo_blanc_langue.png" alt="Logo B3D" class="mx-auto d-block img-fluid">
 		</div>

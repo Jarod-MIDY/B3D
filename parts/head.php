@@ -4,7 +4,7 @@ include ('fonction_handicap.php');
 require 'bdd.php';
 $db = Database::connect();
  ?>
-<!doctype>
+<!DOCTYPE>
 <html>
 
 <head>

@@ -2,7 +2,7 @@
 <?php include('parts/header.php'); ?>
 <?php include('parts/resultat_form.php'); ?>
 
-<section id="formulaire-contact" class="container">
+<section id="formulaire-contact justify-content-center" class="container">
 <div class="bloc-texte form-contact" id="bloc-texte">
 	<h4 class="display-4 text-center">CONTACTEZ-NOUS<hr></h4>
 
@@ -77,7 +77,7 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5706.59330503512!2d0.07091420449699201!3d44.344956780262315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aa7c208889a78f%3A0x8662b027363dce5a!2sL&#39;Intendant%2C+47700+Poussignac!5e0!3m2!1sfr!2sfr!4v1545297392869" class="col-md-12 col-lg-12 col-sm-12" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 
-	<div class="bloc-texte text-center" style="width:80%;margin-left:auto;margin-right:auto;padding:5px;">
+	<div class="bloc-texte-contact bloc-texte text-center">
 		<ul style="list-style:none;margin-top:10px;padding:0;">
 			<li><span class="underline">Télephone</span> :<br>06-74-90-65-96</li>
 			<li><span class="underline">Mail</span> :<br>julien.procedes@orange.fr</li>
