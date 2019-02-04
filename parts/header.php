@@ -50,8 +50,8 @@
 			<nav>
 				<ul>
 					<li><a id="accueil" class="sliding-middle-out" href="index.php">Accueil</a></li>
-					<li><a id="nosProduits" class="sliding-middle-out" href="produit.php">Nos produits</a></li>
 					<li><a id="entreprise" class="sliding-middle-out" href="entreprise.php">L'entreprise</a></li>
+					<li><a id="nosProduits" class="sliding-middle-out" href="produit.php">Nos produits</a></li>
 					<li><a id="contact" class="sliding-middle-out" href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
