@@ -128,6 +128,13 @@ header {
 .dropdown-item:hover.sliding-middle-out:after {
   margin-left: 0px !important;
 }
+#menu-portable{
+  background-color: #B52E1B;
+  color: #d9c894;
+}
+#menu-portable>nav>ul>li>a{
+  text-decoration: none;
+}
 
 /*****Footer*******/
 footer {
@@ -377,13 +384,6 @@ a:hover{
   #choix-langue {
     max-height: 768px;
   }
-  /*carte page-les-produits*/
-  .card-desk {
-
-  }
-  footer {
-    margin-top: 0;
-  }
   .texte-entreprise {
     margin: 2em 0;
   }
@@ -444,9 +444,6 @@ a:hover{
 @media screen and (max-width: 576px) {
   html {
     font-size: 0.9rem;
-  }
-  footer {
-    margin-top: 0;
   }
   .btnsep {
     display: none;
