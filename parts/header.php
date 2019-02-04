@@ -34,7 +34,8 @@
 						</li>
 						<li class="list-inline-item">
 							<!-- choix langue & handicap -->
-							<a id="eye" class="social-icon text-xs-center"><i class="far fa-eye fa-2x" style="color: #ffffff"></i></a>
+							<a id="eye" class="dropdown-toggle social-icon text-xs-center" role="button" data-toggle="dropdown"><i class="far fa-eye fa-2x" style="color: #ffffff"></i></a>
+							<?php include ('menu_handicap.php');?>
 						</li>
 						<li class="list-inline-item">
 							<a id="globe-langue" class="social-icon text-xs-center"  href="#choix-langue"><i class="fas fa-globe fa-2x" style="color: #ffffff"></i></a>

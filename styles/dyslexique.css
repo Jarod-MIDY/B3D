@@ -1,0 +1,8 @@
+@font-face {
+  font-family: OpenDyslexicMono;
+  src: url("open_dyslexic/OpenDyslexicMono-Regular.otf");
+}
+
+*, header nav a {
+  font-family: OpenDyslexicMono, sans-serif; !important
+}

@@ -24,7 +24,8 @@ $(".scroll-langue").click(function() {
 $('#globe-langue').click(function() {
   window.location.href = './parts/gestion_session.php';
 });
-// CSS malvoyant
+
+/*// CSS malvoyant
 var bool = true;
 	$('#eye').click(function() {
 		if (bool) {
@@ -34,4 +35,4 @@ var bool = true;
 			$('#malvoyant').remove();
 			bool = true;
 		}
-	})
+	})*/

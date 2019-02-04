@@ -19,6 +19,7 @@
 
 
 	<script src="scripts/script-b3d.js"></script>
+	<script src="scripts/handicap.js"></script>
 	<?php
 	   Database::disconnect(); ?>
 </body>
